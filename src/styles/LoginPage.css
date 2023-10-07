@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-buttons-container {
+    display: flex;
+    padding: 0px 6px;
+    align-items: center;
+    gap: 5px;
+}
+
+.professor-login, .student-login {
+    display: flex;
+    padding: 9.861px 19.722px;
+    justify-content: center;
+    align-items: center;
+    gap: 4.109px;
+    border-radius: 41.087px;
+    background: #522D80;
+    border: none;
+    color: #fff;
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+}

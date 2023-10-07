@@ -1,12 +1,11 @@
 import { useState } from 'react'
+import { LoginPage } from './pages/LoginPage';
 
 function App() {
 
   return (
     <>
-      <div className="card">
-      </div>
-      <h1>LiGate initial deployment</h1>
+      <LoginPage />
     </>
   )
 }
