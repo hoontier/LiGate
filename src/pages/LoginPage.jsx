@@ -1,14 +1,30 @@
+// LoginPage.jsx
 import React from "react";
-import "../styles/LoginPage.css";
+import { useNavigate } from "react-router-dom";
+import styles from "../styles/LoginPage.module.css";
 
 export const LoginPage = () => {
+  const navigate = useNavigate();
+
+  const handleProfessorLogin = () => {
+    navigate('/professor-register');
+  };
+
+  const handleStudentLogin = () => {
+    navigate('/student-register');
+  };
+
   return (
-    <div className="login-page">
-      <div className="login-body">
-        <img className="frame" alt="Frame" src="/assets/LiGateLogo.svg" />
-        <div className="login-buttons-container">
-          <button className="professor-login">Professor Login</button>
-          <button className="student-login">Student Login</button>
+    <div className={styles['login-page']}>
+      <div className={styles['login-body']}>
+        <img className={styles.logo} alt="LiGate" src="/assets/LiGateLogo.svg" />
+        <div className={styles['login-buttons-container']}>
+          <button className={styles['professor-login']} onClick={handleProfessorLogin}>
+            Professor Login
+          </button>
+          <button className={styles['student-login']} onClick={handleStudentLogin}>
+            Student Login
+          </button>
         </div>
       </div>
     </div>

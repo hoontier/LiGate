@@ -21,8 +21,14 @@ body {
     gap: 20px;
 }
 
+.logo {
+    max-width: 90%; /* allow the logo to shrink */
+    width: 100%;
+}
+
 .login-buttons-container {
     display: flex;
+    flex-direction: row; /* default to row, but will switch to column on smaller screens */
     padding: 0px 6px;
     align-items: center;
     gap: 5px;
@@ -42,4 +48,14 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 200;
+}
+
+@media (max-width: 768px) {
+    .login-buttons-container {
+        flex-direction: column; /* stack buttons vertically on smaller screens */
+    }
+
+    .professor-login, .student-login {
+        width: 100%; /* make buttons full width on smaller screens */
+    }
 }
