@@ -159,7 +159,7 @@ h1 {
     display: flex;
     width: calc(100% - 100px);
     height: 70px;
-    padding: 0px 32px;
+    padding: 0px 34px;
     justify-content: space-between;
     align-items: center;
     border-radius: 48px;
@@ -180,11 +180,11 @@ h1 {
 }
 
 .left {
-    transform: translateX(-86%);
+    transform: translateX(-90%);
 }
 
 .right {
-    transform: translateX(86%); 
+    transform: translateX(90%); 
 }
 
 .toggler-container {

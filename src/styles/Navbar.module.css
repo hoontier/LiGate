@@ -1,0 +1,38 @@
+/* Navbar.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 80px;  /* Reduced from 125px to 80px */
+    padding: 10px 30px;  /* Reduced vertical padding from 20px to 10px */
+    width: 1110px;
+    border-radius: 50.923px;
+    border: 1.273px solid #DEDEDE;
+    margin-top: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo {
+    flex-shrink: 1;
+    height: 40px;  /* Reduced from 50px to 40px */
+    
+}
+
+.notification-icon,
+.menu {
+    cursor: pointer;
+    max-height: 40px;  /* Reduced from 65px to 40px */
+    width: auto;
+}
+
+.profile-pic {
+    max-height: 40px;  /* Reduced from 50px to 40px */
+}

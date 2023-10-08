@@ -23,6 +23,12 @@ export const Register = () => {
       const clickedRole = event.target.innerText.toLowerCase();
       setRole(clickedRole);
     };
+
+    const handleRegister = (event) => {
+      event.preventDefault();  // Prevents the default form submission behavior
+      navigate('/home');
+    }
+  
   
 
     return (
@@ -34,7 +40,7 @@ export const Register = () => {
                     src="/assets/LiGateLogo.svg" 
                     onClick={handleLogoClick}  
                 />
-                <form className={styles.form}>
+                <form className={styles.form} onSubmit={handleRegister}>
                   <h1>Register</h1>
                   <div className={styles["name-inputs"]}>
                     <input className={styles["text-input"]} type="text" placeholder="First Name" />
