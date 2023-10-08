@@ -1,9 +1,18 @@
 /* HomePage.module.css */
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    height: 100vh;
+    width: 100%;
+}
+
 .home-body {
     display: grid;
     grid-template-rows: auto 1fr; /* auto for the nav bar, 1fr for the content below */
-    grid-template-columns: 1fr 4fr; /* 1/4 width for filters, remaining for main content */
+    grid-template-columns: 2fr 5fr; /* 1/4 width for filters, remaining for main content */
     grid-template-areas:
         "nav-bar nav-bar"
         "filters main";
@@ -19,13 +28,15 @@
 
 .filters {
     grid-area: filters;
-    background-color: green;
-    /* ...other styles */
+    background-color: #fff;
+    border-radius: 50.923px;
+    border: 1.273px solid #DEDEDE;
 }
 
 .main {
     grid-area: main;
-    background-color: red;
-    /* ...other styles */
+    background-color: #fff;
+    border-radius: 50.923px;
+    border: 1.273px solid #DEDEDE;
 }
 
