@@ -1,5 +1,5 @@
 // ProfessorPage.jsx
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';  // Import useNavigate
 import styles from "../styles/Register.module.css"
 
@@ -7,6 +7,7 @@ import styles from "../styles/Register.module.css"
 export const Register = () => {
     // Function to display the selected file name
     const [fileName, setFileName] = React.useState('Add Profile Photo (optional)');
+    const [role, setRole] = useState('neutral');
 
     const navigate = useNavigate();  
 
@@ -16,6 +17,11 @@ export const Register = () => {
 
     const handleLogoClick = () => {
       navigate('/login'); 
+    };
+
+    const toggleRole = (event) => {
+      const clickedRole = event.target.innerText.toLowerCase();
+      setRole(clickedRole);
     };
   
 
@@ -34,12 +40,31 @@ export const Register = () => {
                     <input className={styles["text-input"]} type="text" placeholder="First Name" />
                     <input className={styles["text-input"]} type="text" placeholder="Last Name" />
                   </div>
+                  <div className={styles["toggle-role-container"]}>
+                <p>I am a...</p>
+                <div className={styles["role-toggle"]}>
+                    <div className={styles["toggler-container"]}>
+                      <p onClick={toggleRole} className={styles["toggler"]}>Student</p>
+                    </div>
+                    <div 
+                        className={`${styles["selector"]} ${role === 'student' ? styles["left"] : styles["right"]}`} 
+                    >
+                    </div>
+                    <div className={styles["toggler-container"]}>
+                      <p onClick={toggleRole} className={styles["toggler"]}>Professor</p>
+                    </div>
+                </div>
+              </div>
                   <label className={styles["file-input-label"]}>
                     <img className={styles["file-input-icon"]} src="/assets/AddProfile.svg" alt="" aria-hidden="true" />
                     <input className={`${styles["file-input"]} ${styles["upload-input"]}`} type="file" accept="image/*" onChange={handleFileChange} />
                     <span className={styles["file-input-text"]}>{fileName}</span>
                   </label>
-                  <button type="submit">Register</button>
+                  <div className={styles["tos"]}>
+                  <input type="checkbox" id="tos" name="tos" required />
+                  <label htmlFor="tos">I agree to the Terms of Service</label>
+              </div>
+              <button type="submit">Register</button>
                 </form>
             </div>
             <div className={styles["image"]}>
