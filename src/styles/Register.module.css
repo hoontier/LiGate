@@ -1,3 +1,8 @@
+/* Reset and Global Styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,19 +10,145 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Container Styles */
 .register-body {
     display: flex;
+    padding: 41px 0px;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
+    align-items: flex-start;
+    gap: 79px;
 }
 
 .main-contents {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 67px;
 }
 
 .image img {
+    overflow: hidden;
     height: 90vh;
+    width: auto;
     border-radius: 36px;
+}
+/* Logo Styles */
+.logo {
+    padding-top: 20px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    width: 421px;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.name-inputs {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+/* Input Field Styles */
+.text-input {
+    padding: 21px;
+    border-radius: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    
+}
+
+/* File Input Styles */
+.input-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.file-input-label {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Center align items */
+    justify-content: center; /* Center justify content */
+    width: 100%;
+    padding: 21px;
+    border-radius: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.file-input {
+    display: none; /* Hide the actual file input */
+}
+
+.file-input-icon {
+    /* Remove absolute positioning */
+    /* position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%); */
+    height: auto;
+    width: auto;
+}
+
+/* File Input Styles */
+.input-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.file-input-label {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Center align items */
+    justify-content: center; /* Center justify content */
+    width: 100%;
+    padding: 21px;
+    border-radius: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.file-input {
+    display: none; /* Hide the actual file input */
+}
+
+.file-input-icon {
+    height: 56px;
+    width: auto;
+}
+
+.file-input-text {
+    font-size: 12px;
+}
+
+/* Button Styles */
+.form button {
+    padding: 21px;
+    border: none;
+    border-radius: 36px;
+    background-color: #522D80;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
 }
