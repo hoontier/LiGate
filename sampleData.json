@@ -76,5 +76,57 @@
         "desiredSkills": ["GIS", "Statistical Analysis", "Marine Conservation Awareness"],
         "applicants": 18,
         "positions": 3
+    },
+    {
+        "profilePic": "/assets/SamplePic7.jpg",
+        "title": "Developing a Novel Cancer Treatment",
+        "prof": "Dr. James Anderson",
+        "match": "95% Match",
+        "matchFactors": ["Biochemistry", "Honors Only", "GPA 3.7+"],
+        "researchType": "Mentored Undergraduate Research",
+        "projectDescription": "Develops a novel cancer treatment by targeting the metabolic pathways of cancer cells.",
+        "mandatorySkills": ["Cell Culture", "Western Blot", "Mouse Handling"],
+        "desiredSkills": ["Immunohistochemistry", "Flow Cytometry", "Lab Experience"],
+        "applicants": 5,
+        "positions": 1
+    },
+    {
+        "profilePic": "/assets/SamplePic8.jpg",
+        "title": "Investigating the Role of Microbiome in Obesity",
+        "prof": "Dr. Emma Wilson",
+        "match": "90% Match",
+        "matchFactors": ["Microbiology", "Open to All", "GPA 3.0+"],
+        "researchType": "Volunteer Research Assistant",
+        "projectDescription": "Studies the role of microbiome in obesity and its potential as a therapeutic target.",
+        "mandatorySkills": ["Data Analysis", "Statistical Software", "Lab Experience"],
+        "desiredSkills": ["Programming (Python/R)", "Microbiome Analysis", "Machine Learning"],
+        "applicants": 10,
+        "positions": 2
+    },
+    {
+        "profilePic": "/assets/SamplePic9.jpg",
+        "title": "Developing a Novel Drug Delivery System",
+        "prof": "Dr. John Smith",
+        "match": "85% Match",
+        "matchFactors": ["Chemistry", "Junior/Senior", "GPA 3.5+"],
+        "researchType": "Independent Study",
+        "projectDescription": "Develops a novel drug delivery system to improve the efficacy of cancer treatments.",
+        "mandatorySkills": ["Organic Chemistry", "Lab Experience", "Programming (Python/R)"],
+        "desiredSkills": ["Biochemistry", "Drug Delivery", "Machine Learning"],
+        "applicants": 15,
+        "positions": 3
+    },
+    {
+        "profilePic": "/assets/SamplePic10.jpg",
+        "title": "Investigating the Role of Microbiome in Obesity",
+        "prof": "Dr. Emma Wilson",
+        "match": "90% Match",
+        "matchFactors": ["Microbiology", "Open to All", "GPA 3.0+"],
+        "researchType": "Volunteer Research Assistant",
+        "projectDescription": "Studies the role of microbiome in obesity and its potential as a therapeutic target.",
+        "mandatorySkills": ["Data Analysis", "Statistical Software", "Lab Experience"],
+        "desiredSkills": ["Programming (Python/R)", "Microbiome Analysis", "Machine Learning"],
+        "applicants": 10,
+        "positions": 2
     }
 ]
