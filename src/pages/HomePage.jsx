@@ -2,8 +2,11 @@
 import React from 'react';
 import styles from "../styles/HomePage.module.css"
 import { Navbar } from '../components/Navbar';
+import { HomeMainContent } from '../components/HomeMainContent';
+
 
 export const HomePage = () => {
+
     return (
         <div className={styles['flex-container']}>
             <div className={styles['home-body']}>
@@ -13,6 +16,7 @@ export const HomePage = () => {
                 <div className={styles['filters']}>
                 </div>
                 <div className={styles['main']}>
+                    <HomeMainContent />
                 </div>
             </div>
         </div>

@@ -1,0 +1,80 @@
+[
+    {
+        "profilePic": "/assets/SamplePic1.jpg",
+        "title": "MicroRNA-21's Role in Post-Infarction Cardiac Fibrosis",
+        "prof": "Dr. Elanor Hutchins",
+        "match": "90% Match",
+        "matchFactors": ["Microbiology", "Honors Only", "GPA 3.5+"],
+        "researchType": "Mentored Undergraduate Research",
+        "projectDescription": "Delves into the intricate relationship between MicroRNA-21 and cardiac fibrosis observed post-myocardial infarction, seeking to elucidate the molecular mechanisms driving heart tissue scarring.",
+        "mandatorySkills": ["PCR", "Western Blot", "Mouse Handling"],
+        "desiredSkills": ["Immunohistochemistry", "Cell Culture", "Lab Experience"],
+        "applicants": 8,
+        "positions": 2
+    },
+    {
+        "profilePic": "/assets/SamplePic2.jpg",
+        "title": "Impact of Sleep Deprivation on Cognitive Functions",
+        "prof": "Dr. Amelia Turner",
+        "match": "85% Match",
+        "matchFactors": ["Neuroscience", "Open to All", "GPA 3.0+"],
+        "researchType": "Volunteer Research Assistant",
+        "projectDescription": "Investigates the effects of sleep deprivation on various cognitive functions to understand the underlying neural mechanisms.",
+        "mandatorySkills": ["Data Analysis", "Statistical Software", "Sleep Study Experience"],
+        "desiredSkills": ["Programming (Python/R)", "EEG Analysis", "Machine Learning"],
+        "applicants": 15,
+        "positions": 3
+    },
+    {
+        "profilePic": "/assets/SamplePic3.jpg",
+        "title": "Exploring Quantum Computing Algorithms",
+        "prof": "Dr. Isaac Clarke",
+        "match": "80% Match",
+        "matchFactors": ["Computer Science", "Junior/Senior", "GPA 3.7+"],
+        "researchType": "Independent Study",
+        "projectDescription": "Aims to develop novel algorithms to harness the power of quantum computing and explore its applications.",
+        "mandatorySkills": ["Quantum Mechanics", "Algorithm Design", "Programming (C++/Python)"],
+        "desiredSkills": ["Linear Algebra", "Machine Learning", "Quantum Programming"],
+        "applicants": 20,
+        "positions": 2
+    },
+    {
+        "profilePic": "/assets/SamplePic4.jpg",
+        "title": "Sustainable Urban Farming Techniques",
+        "prof": "Dr. Olivia Johnson",
+        "match": "88% Match",
+        "matchFactors": ["Agricultural Science", "Open to All", "GPA 3.0+"],
+        "researchType": "Field Research",
+        "projectDescription": "Studies sustainable urban farming techniques to address food security issues in urban settings.",
+        "mandatorySkills": ["Plant Biology", "Data Collection", "Basic Farming Knowledge"],
+        "desiredSkills": ["GIS", "Community Outreach", "Sustainable Design"],
+        "applicants": 10,
+        "positions": 4
+    },
+    {
+        "profilePic": "/assets/SamplePic5.jpg",
+        "title": "Machine Learning in Financial Forecasting",
+        "prof": "Dr. Alan Mitchell",
+        "match": "92% Match",
+        "matchFactors": ["Finance", "Graduate Students", "GPA 3.5+"],
+        "researchType": "Mentored Graduate Research",
+        "projectDescription": "Applies machine learning algorithms to predict financial market trends and enhance trading strategies.",
+        "mandatorySkills": ["Machine Learning", "Financial Analysis", "Programming (Python/R)"],
+        "desiredSkills": ["Time Series Analysis", "Deep Learning", "Algorithmic Trading"],
+        "applicants": 12,
+        "positions": 2
+    },
+    {
+        "profilePic": "/assets/SamplePic6.jpg",
+        "title": "Investigating Marine Biodiversity in Coral Reefs",
+        "prof": "Dr. Emily Adams",
+        "match": "89% Match",
+        "matchFactors": ["Marine Biology", "Sophomore/Junior", "GPA 3.2+"],
+        "researchType": "Summer Internship",
+        "projectDescription": "Conducts field studies to assess the biodiversity in coral reefs and the impact of climate change on marine ecosystems.",
+        "mandatorySkills": ["Marine Biology", "Data Collection", "Scuba Diving Certification"],
+        "desiredSkills": ["GIS", "Statistical Analysis", "Marine Conservation Awareness"],
+        "applicants": 18,
+        "positions": 3
+    }
+]

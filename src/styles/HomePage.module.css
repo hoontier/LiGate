@@ -1,4 +1,8 @@
 /* HomePage.module.css */
+* {
+    box-sizing: border-box;
+}
+
 
 .flex-container {
     display: flex;
@@ -11,13 +15,14 @@
 
 .home-body {
     display: grid;
-    grid-template-rows: auto 1fr; /* auto for the nav bar, 1fr for the content below */
+    grid-template-rows: auto calc(100vh - 120px); /* auto for the nav bar, 1fr for the content below */
     grid-template-columns: 2fr 5fr; /* 1/4 width for filters, remaining for main content */
     grid-template-areas:
         "nav-bar nav-bar"
         "filters main";
     height: 100vh; /* make it take up the entire viewport height */
     gap: 16px; /* optional: add some gap between grid items */
+    width: 1110px;
 }
 
 .nav-bar {
@@ -37,6 +42,5 @@
     grid-area: main;
     background-color: #fff;
     border-radius: 50.923px;
-    border: 1.273px solid #DEDEDE;
 }
 

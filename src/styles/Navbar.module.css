@@ -5,8 +5,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    height: 80px;  /* Reduced from 125px to 80px */
-    padding: 10px 30px;  /* Reduced vertical padding from 20px to 10px */
+    height: 80px;  
+    padding: 10px 30px;  
     width: 1110px;
     border-radius: 50.923px;
     border: 1.273px solid #DEDEDE;
@@ -22,17 +22,18 @@
 
 .logo {
     flex-shrink: 1;
-    height: 40px;  /* Reduced from 50px to 40px */
-    
+    height: 40px;  
+
 }
 
 .notification-icon,
 .menu {
     cursor: pointer;
-    max-height: 40px;  /* Reduced from 65px to 40px */
+    max-height: 40px;  
     width: auto;
 }
 
 .profile-pic {
-    max-height: 40px;  /* Reduced from 50px to 40px */
+    cursor: pointer;
+    max-height: 40px;  
 }
