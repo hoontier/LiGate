@@ -1,0 +1,43 @@
+/* Filters.module.css */
+.filters-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50.923px;
+    border: 1px solid #ddd;
+}
+
+.filters-header {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.filter-group {
+    margin-bottom: 12px;
+}
+
+.filter-label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.filter-select,
+.filter-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 50.923px;
+}
+
+.filter-checkbox {
+    margin-left: 3px;
+    height: 16px;
+    width: 16px;
+}
+
+.filter-group-checkbox {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}

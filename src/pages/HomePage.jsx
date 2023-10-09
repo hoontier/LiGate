@@ -3,6 +3,7 @@ import React from 'react';
 import styles from "../styles/HomePage.module.css"
 import { Navbar } from '../components/Navbar';
 import { HomeMainContent } from '../components/HomeMainContent';
+import { Filters } from '../components/Filters';
 
 
 export const HomePage = () => {
@@ -14,6 +15,7 @@ export const HomePage = () => {
                     <Navbar />
                 </div>
                 <div className={styles['filters']}>
+                    <Filters />
                 </div>
                 <div className={styles['main']}>
                     <HomeMainContent />

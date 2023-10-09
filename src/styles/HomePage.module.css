@@ -34,8 +34,6 @@
 .filters {
     grid-area: filters;
     background-color: #fff;
-    border-radius: 50.923px;
-    border: 1.273px solid #DEDEDE;
 }
 
 .main {

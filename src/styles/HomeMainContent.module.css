@@ -57,7 +57,7 @@
     grid-area: main-content-body;
     display: flex;
     flex-direction: column;
-    gap: 27px;
+    gap: 5px;
     overflow-y: auto;
     padding: 0;  /* Remove padding */
     margin: 0;  /* Remove margin */
