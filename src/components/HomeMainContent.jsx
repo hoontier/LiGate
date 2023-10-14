@@ -23,7 +23,7 @@ export const HomeMainContent = () => {
             </div>
             <div className={styles['main-content-body']} ref={scrollRef}>
                 {cardData.map((card, index) => (
-                    <Card key={index} card={card} />
+                    <Card key={index} card={card} isFirst={index === 0} />
                 ))}
             </div>
         </div>

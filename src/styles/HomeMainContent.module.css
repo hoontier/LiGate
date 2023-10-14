@@ -63,7 +63,7 @@
     margin: 0;  /* Remove margin */
     border: 0;  /* Remove border */
     scrollbar-width: thin;  /* Firefox */
-    scrollbar-color: #3d3d3d #E2E8F0;  /* Firefox */
+    scrollbar-color: #3d3d3d #c0c5ca;  /* Firefox */
 }
 
 /* Chrome, Safari, and Edge */
@@ -72,7 +72,7 @@
 }
 
 .main-content-body::-webkit-scrollbar-track {
-    background-color: #E2E8F0;
+    background-color: #c0c5ca;
     border-radius: 10px;
 }
 

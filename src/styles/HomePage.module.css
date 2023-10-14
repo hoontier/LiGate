@@ -11,6 +11,7 @@
     align-self: stretch;
     height: 100vh;
     width: 100%;
+    background-color: #EBEFF3
 }
 
 .home-body {
@@ -33,12 +34,10 @@
 
 .filters {
     grid-area: filters;
-    background-color: #fff;
 }
 
 .main {
     grid-area: main;
-    background-color: #fff;
     border-radius: 50.923px;
 }
 

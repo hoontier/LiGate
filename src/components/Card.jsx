@@ -2,9 +2,9 @@
 import React from "react";
 import styles from "../styles/Card.module.css";
 
-export const Card = ({ card }) => {
+export const Card = ({ card, isFirst }) => {
     return(
-        <div className={styles['card']}>
+        <div className={`${styles['card']} ${isFirst ? styles['first-card'] : ''}`}>
             <div className={styles['card-left']}>
                 <div className={styles['card-header']}>
                     <img className={styles['profile-pic']} alt="Profile" src={card.profilePic} />
