@@ -1,10 +1,10 @@
 // ProfessorPage.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';  // Import useNavigate
-import styles from "../styles/Register.module.css"
+import styles from "../styles/RegisterAll.module.css"
 
 
-export const Register = () => {
+export const RegisterAll = () => {
     // Function to display the selected file name
     const [fileName, setFileName] = React.useState('Add Profile Photo (optional)');
     const [role, setRole] = useState('neutral');
@@ -26,7 +26,12 @@ export const Register = () => {
 
     const handleRegister = (event) => {
       event.preventDefault();  // Prevents the default form submission behavior
-      navigate('/home');
+      // if role is student, navigate to register-stu, else if role is professor, navigate to register-prof, else do nothing
+      if (role === 'student') {
+        navigate('/register-stu');
+      } else if (role === 'professor') {
+        navigate('/register-prof');
+      }
     }
   
   
@@ -42,7 +47,7 @@ export const Register = () => {
                 />
                 <form className={styles.form} onSubmit={handleRegister}>
                   <h1>Register</h1>
-                  <div className={styles["name-inputs"]}>
+                  <div className={styles["two-inputs-container"]}>
                     <input className={styles["text-input"]} type="text" placeholder="First Name" />
                     <input className={styles["text-input"]} type="text" placeholder="Last Name" />
                   </div>
@@ -70,7 +75,8 @@ export const Register = () => {
                   <input type="checkbox" id="tos" name="tos" required />
                   <label htmlFor="tos">I agree to the Terms of Service</label>
               </div>
-              <button type="submit">Register</button>
+              <button type="submit">Next</button>
+              <p className={styles['page-count']}>Page 1 of 2</p>
                 </form>
             </div>
             <div className={styles["image"]}>

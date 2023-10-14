@@ -12,7 +12,7 @@ export const LoginPage = () => {
   };
 
   const handleRegisterClick = () => {
-    navigate("/register");
+    navigate("/register-all");
   }
 
   const handleViewProjectsClick = () => {
