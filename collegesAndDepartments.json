@@ -1,0 +1,106 @@
+{
+    "colleges": [
+        {
+            "name": "College of Agriculture, Forestry and Life Sciences",
+            "departments": [
+                "Department of Agricultural Sciences",
+                "Department of Animal and Veterinary Sciences",
+                "Department of Food, Nutrition and Packaging Science",
+                "Department of Forestry and Environmental Conservation",
+                "Department of Plant and Environmental Sciences"
+            ]
+        },
+        {
+            "name": "College of Architecture, Art and Construction",
+            "departments": [
+                "School of Architecture",
+                "Department of Art",
+                "Nieri Department of Construction, Development and Planning"
+            ]
+        },
+        {
+            "name": "College of Arts and Humanities",
+            "departments": [
+                "Department of English",
+                "Department of History and Geography",
+                "Department of Interdisciplinary Studies",
+                "Department of Languages",
+                "Department of Performing Arts",
+                "Department of Philosophy and Religion"
+            ]
+        },
+        {
+            "name": "College of Behavioral, Social and Health Sciences",
+            "departments": [
+                "Department of Communication",
+                "School of Nursing",
+                "Department of Parks, Recreation and Tourism Management",
+                "Department of Political Science",
+                "Department of Psychology",
+                "Department of Public Health Sciences",
+                "Department of Sociology, Anthropology and Criminal Justice"
+            ]
+        },
+        {
+            "name": "College of Engineering, Computing and Applied Sciences",
+            "departments": [
+                "General Engineering Program",
+                "Department of Automotive Engineering",
+                "Department of Bioengineering",
+                "Department of Chemical and Biomolecular Engineering",
+                "Glenn Department of Civil Engineering",
+                "School of Computing",
+                "Holcombe Department of Electrical and Computer Engineering",
+                "Department of Engineering and Science Education",
+                "Department of Environmental Engineering and Earth Sciences",
+                "Department of Industrial Engineering",
+                "Department of Materials Science and Engineering",
+                "Department of Mechanical Engineering"
+            ]
+        },
+        {
+            "name": "College of Education",
+            "departments": [
+                "Department of Education and Human Development",
+                "Department of Education and Organizational Leadership Development",
+                "Department of Teaching and Learning"
+            ]
+        },
+        {
+            "name": "College of Science",
+            "departments": [
+                "Department of Biological Sciences",
+                "Department of Chemistry",
+                "Department of Genetics and Biochemistry",
+                "School of Mathematical and Statistical Sciences",
+                "Department of Physics and Astronomy"
+            ]
+        },
+        {
+            "name": "College of Veterinary Medicine",
+            "departments": []
+        },
+        {
+            "name": "Emeritus College",
+            "departments": []
+        },
+        {
+            "name": "Honors College",
+            "departments": []
+        },
+        {
+            "name": "Wilbur O. and Ann Powers College of Business",
+            "departments": [
+                "School of Accountancy",
+                "Department of Aerospace Studies",
+                "John E. Walker Department of Economics",
+                "Department of Financial Management",
+                "Department of Graphic Communications",
+                "Department of Management",
+                "Department of Marketing",
+                "Department of Military Leadership",
+                "Master of Business Administration"
+            ]
+        }
+    ]
+}
