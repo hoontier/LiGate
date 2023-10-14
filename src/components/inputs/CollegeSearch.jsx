@@ -1,6 +1,6 @@
 // CollegeSearch.jsx
 import React from 'react';
-import styles from "../../styles/RegisterAll.module.css"
+import styles from "../../styles/inputStyles/DepartmentAndCollegeSearch.module.css";
 
 export const CollegeSearch = ({
     collegeQuery,

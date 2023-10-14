@@ -1,0 +1,14 @@
+.text-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 21px;
+    padding-left: 50px;
+    border-radius: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    background-image: url('/assets/name-user-outline.svg'); 
+    background-position: 15px center; 
+    background-repeat: no-repeat; 
+    background-size: 20px;  
+    font-size: 16px;
+}

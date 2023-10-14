@@ -1,0 +1,32 @@
+/* File Input Styles */
+.input-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+.file-input-label {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Center align items */
+    justify-content: center; /* Center justify content */
+    width: 100%;
+    padding: 21px;
+    border-radius: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.file-input {
+    display: none; /* Hide the actual file input */
+}
+
+.file-input-icon {
+    height: 56px;
+    width: auto;
+}
+
+.file-input-text {
+    font-size: 12px;
+}

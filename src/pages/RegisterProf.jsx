@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import styles from "../styles/RegisterAll.module.css"
 import { CollegeSearch } from '../components/inputs/CollegeSearch';
 import { DepartmentSearch } from '../components/inputs/DepartmentSearch';
+import { DisplayName } from '../components/inputs/DisplayName';
+import { TextInput } from '../components/inputs/TextInput';
 import collegesAndDepartments from '../../collegesAndDepartments.json';
 
 
@@ -17,6 +19,14 @@ export const RegisterProf = () => {
     const [departmentQuery, setDepartmentQuery] = useState('');
     const [filteredColleges, setFilteredColleges] = useState([]);
     const [filteredDepartments, setFilteredDepartments] = useState([]);
+
+    // sample first and last name
+    const [firstName, setFirstName] = useState('John');
+    const [lastName, setLastName] = useState('Doe');
+    const [displayName, setDisplayName] = useState(`Prof. ${firstName} ${lastName}`);
+
+    const [editingDisplayName, setEditingDisplayName] = useState(false);
+    const [isOtherSelected, setIsOtherSelected] = useState(false);
 
     const handleRegister = (event) => {
         event.preventDefault();  // Prevents the default form submission behavior
@@ -91,7 +101,17 @@ export const RegisterProf = () => {
                 />
                 <form className={styles.form} onSubmit={handleRegister}>
                     <h1>Professor Registration</h1>
-                    <input className={styles["wide-text-input"]} type="text" placeholder="Academic Title (i.e. Professor, Lecturer, Researcher)" />
+                    <DisplayName
+                        firstName={firstName}
+                        lastName={lastName}
+                        displayName={displayName}
+                        setDisplayName={setDisplayName}
+                        editingDisplayName={editingDisplayName}
+                        setEditingDisplayName={setEditingDisplayName}
+                        isOtherSelected={isOtherSelected}
+                        setIsOtherSelected={setIsOtherSelected}
+                    />
+                    <TextInput placeholder={'Academic Title (i.e. Professor, Lecturer, Researcher)'} />
                     <div className={styles["two-inputs-container"]}>
                         <CollegeSearch 
                             collegeQuery={collegeQuery}

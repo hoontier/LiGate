@@ -1,6 +1,9 @@
-// ProfessorPage.jsx
+// RegisterAll.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';  // Import useNavigate
+import { TextInput } from '../components/inputs/TextInput';
+import { ProfilePicFileInput } from '../components/inputs/ProfilePicFileInput';
+import { RoleToggle } from '../components/inputs/RoleToggle';
 import styles from "../styles/RegisterAll.module.css"
 
 
@@ -24,17 +27,14 @@ export const RegisterAll = () => {
       setRole(clickedRole);
     };
 
-    const handleRegister = (event) => {
-      event.preventDefault();  // Prevents the default form submission behavior
-      // if role is student, navigate to register-stu, else if role is professor, navigate to register-prof, else do nothing
+    const handleNext = (event) => {
+      event.preventDefault();
       if (role === 'student') {
         navigate('/register-stu');
       } else if (role === 'professor') {
         navigate('/register-prof');
       }
     }
-  
-  
 
     return (
         <div className={styles["register-body"]}>
@@ -45,37 +45,23 @@ export const RegisterAll = () => {
                     src="/assets/LiGateLogo.svg" 
                     onClick={handleLogoClick}  
                 />
-                <form className={styles.form} onSubmit={handleRegister}>
+                <form className={styles.form} onSubmit={handleNext}>
                   <h1>Register</h1>
                   <div className={styles["two-inputs-container"]}>
-                    <input className={styles["text-input"]} type="text" placeholder="First Name" />
-                    <input className={styles["text-input"]} type="text" placeholder="Last Name" />
+                    <TextInput placeholder={'First Name'} />
+                    <TextInput placeholder={'Last Name'} />
                   </div>
-                  <div className={styles["toggle-role-container"]}>
-                <p>I am a...</p>
-                <div className={styles["role-toggle"]}>
-                    <div className={styles["toggler-container"]}>
-                      <p onClick={toggleRole} className={styles["toggler"]}>Student</p>
-                    </div>
-                    <div 
-                        className={`${styles["selector"]} ${role === 'student' ? styles["left"] : styles["right"]}`} 
-                    >
-                    </div>
-                    <div className={styles["toggler-container"]}>
-                      <p onClick={toggleRole} className={styles["toggler"]}>Professor</p>
-                    </div>
-                </div>
-              </div>
-                  <label className={styles["file-input-label"]}>
-                    <img className={styles["file-input-icon"]} src="/assets/AddProfile.svg" alt="" aria-hidden="true" />
-                    <input className={`${styles["file-input"]} ${styles["upload-input"]}`} type="file" accept="image/*" onChange={handleFileChange} />
-                    <span className={styles["file-input-text"]}>{fileName}</span>
-                  </label>
+                    <RoleToggle role={role} setRole={setRole} />
+                    <ProfilePicFileInput 
+                        fileName={fileName} 
+                        setFileName={setFileName} 
+                        styles={styles} 
+                    />
                   <div className={styles["tos"]}>
                   <input type="checkbox" id="tos" name="tos" required />
                   <label htmlFor="tos">I agree to the Terms of Service</label>
               </div>
-              <button type="submit">Next</button>
+              <button type="submit" className={styles['register-button']}>Next</button>
               <p className={styles['page-count']}>Page 1 of 2</p>
                 </form>
             </div>
