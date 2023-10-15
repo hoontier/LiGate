@@ -8,6 +8,7 @@ import {
     setFilteredDepartments,
     removeSelectedDepartment,
 } from '../../features/selectSlice';
+import { setProfessorDepartment } from '../../features/userSlice';
 
 export const DepartmentSearch = () => {
     const dispatch = useDispatch();
@@ -26,11 +27,17 @@ export const DepartmentSearch = () => {
         dispatch(setSelectedDepartment(department)); 
         dispatch(setDepartmentQuery(''));  
         dispatch(setFilteredDepartments([]));  
+
+        const updatedDepartments = [...selectedDepartments, department];
+        dispatch(setProfessorDepartment(updatedDepartments));
     };
 
     const handleSelectedDepartmentClear = (index) => {
         const departmentToRemove = selectedDepartments[index];
         dispatch(removeSelectedDepartment({value: departmentToRemove}));
+
+        const updatedDepartments = selectedDepartments.filter((_, i) => i !== index);
+        dispatch(setProfessorDepartment(updatedDepartments));
     };
     
     

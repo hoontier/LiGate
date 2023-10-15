@@ -8,6 +8,7 @@ import {
     setFilteredColleges,
     removeSelectedCollege,
 } from '../../features/selectSlice';
+import { setProfessorCollege } from '../../features/userSlice';
 
 export const CollegeSearch = () => {
     const dispatch = useDispatch();
@@ -15,20 +16,25 @@ export const CollegeSearch = () => {
         collegeQuery,
         filteredColleges,
         selectedColleges,
-    } = useSelector(state => state.select);  // Ensure these states are defined in your slice
+    } = useSelector(state => state.select);
     
     const handleCollegeQueryChange = (e) => {
         dispatch(setCollegeQuery(e.target.value));
     };
 
     const handleCollegeSelect = (college) => {
-        dispatch(setSelectedCollege({name: college.name})); // Dispatching action
-        dispatch(setCollegeQuery(''));  // Dispatching action
-        dispatch(setFilteredColleges([]));  // Dispatching action
+        dispatch(setSelectedCollege(college)); 
+        dispatch(setCollegeQuery(''));  
+        dispatch(setFilteredColleges([]));  
+
+        const updatedColleges = [...selectedColleges, college];
+        dispatch(setProfessorCollege(updatedColleges));
     };
 
-    const handleSelectedCollegeClear = (collegeName) => {
-        dispatch(removeSelectedCollege({name: collegeName})); 
+    const handleSelectedCollegeClear = (index) => {
+        const updatedColleges = selectedColleges.filter((_, i) => i !== index);
+        dispatch(setProfessorCollege(updatedColleges));
+        dispatch(removeSelectedCollege(updatedColleges));
     };
     
     return ( 
@@ -56,12 +62,12 @@ export const CollegeSearch = () => {
                 </ul>
             )}
             <div className={styles["selected-colleges"]}>
-                {selectedColleges.map(selectedCollege => (
-                    <div className={styles["selected-college"]} key={selectedCollege.value}>
-                        <p>{selectedCollege.value}</p>
+                {selectedColleges.map((selectedCollege, index) => (
+                    <div className={styles["selected-college"]} key={selectedCollege.name}>
+                        <p>{selectedCollege.name}</p>
                         <button
                             className={styles["remove-button"]}
-                            onClick={() => handleSelectedCollegeClear(selectedCollege.value)}
+                            onClick={() => handleSelectedCollegeClear(index)}
                         >
                             <img src="/assets/remove.svg" alt="Remove" />
                         </button>

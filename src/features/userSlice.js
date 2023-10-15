@@ -64,8 +64,8 @@ export const userSlice = createSlice({
                 delete state.student; // Removing student data when role is professor
                 state.professor = {
                     academicTitle: '',
-                    colleges: '',
-                    departments: '',
+                    colleges: [],
+                    departments: [],
                 };
             }
         },        
@@ -87,11 +87,11 @@ export const userSlice = createSlice({
         setProfessorAcademicTitle: (state, action) => {
             state.professor.academicTitle = action.payload;
         },
-        setProfessorColleges: (state, action) => {
-            state.professor.colleges = action.payload;
+        setProfessorCollege: (state, action) => {
+            state.professor.colleges = (action.payload);
         },
-        setProfessorDepartments: (state, action) => {
-            state.professor.departments = action.payload;
+        setProfessorDepartment: (state, action) => {
+            state.professor.departments = (action.payload);
         },
     },
 });
@@ -112,8 +112,8 @@ export const {
     setStudentHonors,
     setStudentYear,
     setProfessorAcademicTitle,
-    setProfessorColleges,
-    setProfessorDepartments,
+    setProfessorCollege,
+    setProfessorDepartment,
     setEmail,
     setCuid,
 } = userSlice.actions;

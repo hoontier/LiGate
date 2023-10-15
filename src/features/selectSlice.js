@@ -21,10 +21,7 @@ export const selectSlice = createSlice({
     initialState,
     reducers: {
         setSelectedCollege: (state, action) => {
-            state.selectedColleges.push({
-                value: action.payload.name,
-                label: action.payload.name
-            });
+            state.selectedColleges.push(action.payload);
             // If a college is selected, filter its departments
             const selected = collegesAndDepartments.colleges.find(
                 college => college.name === action.payload.value
@@ -38,10 +35,9 @@ export const selectSlice = createSlice({
                 : []; 
         },
         removeSelectedCollege: (state, action) => {
-            state.selectedColleges = state.selectedColleges.filter(
-                college => college.value !== action.payload.name
-            );
-        },        
+            console.log(action.payload);
+            state.selectedColleges = (action.payload)
+        },                   
         setSelectedDepartment: (state, action) => {
             state.selectedDepartments.push(action.payload);
         },        
