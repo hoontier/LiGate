@@ -1,13 +1,18 @@
 // RoleToggle.jsx
 import React from 'react';
-import styles from "../../styles/inputStyles/RoleToggle.module.css"; 
+import { useDispatch, useSelector } from 'react-redux';
+import { setRole } from '../../features/userSlice';
+import styles from "../../styles/inputStyles/RoleToggle.module.css";
 
-export const RoleToggle = ({ role, setRole }) => {
+export const RoleToggle = () => {
+    const dispatch = useDispatch();
+    const role = useSelector((state) => state.user.role);
+
     const toggleRole = (event) => {
-      const clickedRole = event.target.innerText.toLowerCase();
-      setRole(clickedRole);
+        const clickedRole = event.target.innerText.toLowerCase();
+        dispatch(setRole(clickedRole));
     };
-    
+
     return (
         <div className={styles["toggle-role-container"]}>
             <p>I am a...</p>

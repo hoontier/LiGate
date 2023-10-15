@@ -33,6 +33,11 @@ export const RegisterProf = () => {
         navigate('/home');
       }
 
+    const handleBack = (event) => {
+        event.preventDefault();
+        navigate('/register-all');
+    }
+
     useEffect(() => {
         // Transform the college data to be used in React-Select
         const collegeOptions = collegesAndDepartments.colleges.map(college => ({
@@ -140,7 +145,7 @@ export const RegisterProf = () => {
                       </div>
                       <div className={styles["register-buttons"]}>
                       <div className={styles["back-link"]}>
-                          <a href="/register-all">Back</a>
+                          <a onClick={handleBack}>Back</a>
                       </div>
                       <button className={styles["register-button"]} type="submit">Register</button>
                       </div>

@@ -1,34 +1,35 @@
 // RegisterAll.jsx
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';  // Import useNavigate
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
 import { TextInput } from '../components/inputs/TextInput';
 import { ProfilePicFileInput } from '../components/inputs/ProfilePicFileInput';
 import { RoleToggle } from '../components/inputs/RoleToggle';
+import { setFirstName, setLastName, setDisplayName } from '../features/userSlice';
 import styles from "../styles/Register.module.css"
 
-
 export const RegisterAll = () => {
-    // Function to display the selected file name
-    const [fileName, setFileName] = React.useState('Add Profile Photo (optional)');
-    const [role, setRole] = useState('neutral');
-
+    const dispatch = useDispatch();
     const navigate = useNavigate();  
 
-    const handleFileChange = (event) => {
-        setFileName(event.target.files[0] ? event.target.files[0].name : 'Add Profile Photo (optional)'); 
+    const role = useSelector((state) => state.user.role);
+
+
+    const handleInputChange = (e) => {
+      if(e.target.name === 'firstName') {
+          dispatch(setFirstName(e.target.value));
+      } else if(e.target.name === 'lastName') {
+          dispatch(setLastName(e.target.value));
+      }
     };
 
     const handleLogoClick = () => {
       navigate('/login'); 
     };
 
-    const toggleRole = (event) => {
-      const clickedRole = event.target.innerText.toLowerCase();
-      setRole(clickedRole);
-    };
-
     const handleNext = (event) => {
       event.preventDefault();
+      dispatch(setDisplayName());
       if (role === 'student') {
         navigate('/register-stu');
       } else if (role === 'professor') {
@@ -48,13 +49,11 @@ export const RegisterAll = () => {
                 <form className={styles.form} onSubmit={handleNext}>
                   <h1>Register</h1>
                   <div className={styles["two-inputs-container"]}>
-                    <TextInput placeholder={'First Name'} />
-                    <TextInput placeholder={'Last Name'} />
+                    <TextInput name="firstName" placeholder={'First Name'} onChange={handleInputChange} />
+                    <TextInput name="lastName" placeholder={'Last Name'} onChange={handleInputChange} />
                   </div>
-                    <RoleToggle role={role} setRole={setRole} toggleRole={toggleRole} />
+                    <RoleToggle />
                     <ProfilePicFileInput 
-                        fileName={fileName} 
-                        setFileName={setFileName} 
                         styles={styles} 
                     />
                   <button type="submit" className={styles['register-button']}>Next</button>

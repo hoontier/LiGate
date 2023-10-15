@@ -1,10 +1,14 @@
 // ProfilePicFileInput.jsx
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { setFileName } from '../../features/userSlice';  // Ensure path is correct
 import styles from "../../styles/inputStyles/ProfilePicFileInput.module.css";
 
-export const ProfilePicFileInput = ({ fileName, setFileName }) => {
+export const ProfilePicFileInput = ({ fileName }) => {  // Removed setFileName from props
+    const dispatch = useDispatch();
+
     const handleFileChange = (event) => {
-        setFileName(event.target.files[0] ? event.target.files[0].name : 'Add Profile Photo (optional)'); 
+        dispatch(setFileName(event.target.files[0] ? event.target.files[0].name : 'Add Profile Photo (optional)'));
     };
 
     return (

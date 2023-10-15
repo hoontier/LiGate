@@ -10,13 +10,6 @@ import { YearDropdown } from '../components/inputs/YearDropdown';
 
 export const RegisterStu = () => {
     const navigate = useNavigate(); 
-    // sample first and last name
-    const [firstName, setFirstName] = useState('John');
-    const [lastName, setLastName] = useState('Doe');
-    const [displayName, setDisplayName] = useState(`Prof. ${firstName} ${lastName}`);
-
-    const [editingDisplayName, setEditingDisplayName] = useState(false);
-    const [isOtherSelected, setIsOtherSelected] = useState(false);
 
     const [selectedYear, setSelectedYear] = useState('');
 
@@ -24,6 +17,11 @@ export const RegisterStu = () => {
         event.preventDefault();  // Prevents the default form submission behavior
         navigate('/home');
       }
+
+    const handleBack = (event) => {
+        event.preventDefault();
+        navigate('/register-all');
+    }
 
     return (
         <div className={styles["register-body"]}>
@@ -36,14 +34,6 @@ export const RegisterStu = () => {
                 <form className={styles.form} onSubmit={handleRegister}>
                     <h1>Student Registration</h1>
                     <DisplayName
-                        firstName={firstName}
-                        lastName={lastName}
-                        displayName={displayName}
-                        setDisplayName={setDisplayName}
-                        editingDisplayName={editingDisplayName}
-                        setEditingDisplayName={setEditingDisplayName}
-                        isOtherSelected={isOtherSelected}
-                        setIsOtherSelected={setIsOtherSelected}
                     />
                     <div className={styles["two-inputs-container"]}>
                       <MajorsSearch />
@@ -68,7 +58,7 @@ export const RegisterStu = () => {
                       </div>
                       <div className={styles["register-buttons"]}>
                       <div className={styles["back-link"]}>
-                          <a href="/register-all">Back</a>
+                            <a onClick={handleBack}>Back</a>
                       </div>
                       <button className={styles["register-button"]} type="submit">Register</button>
                       </div>
