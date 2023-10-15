@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { TextInput } from '../components/inputs/TextInput';
 import { ProfilePicFileInput } from '../components/inputs/ProfilePicFileInput';
 import { RoleToggle } from '../components/inputs/RoleToggle';
-import { setFirstName, setLastName, setDisplayName } from '../features/userSlice';
+import { setFirstName, setLastName, setDisplayName, setRoleAndInitialize } from '../features/userSlice';
 import styles from "../styles/Register.module.css"
 
 export const RegisterAll = () => {
@@ -13,6 +13,8 @@ export const RegisterAll = () => {
     const navigate = useNavigate();  
 
     const role = useSelector((state) => state.user.role);
+    const firstName = useSelector((state) => state.user.firstName);
+    const lastName = useSelector((state) => state.user.lastName);
 
 
     const handleInputChange = (e) => {
@@ -22,7 +24,7 @@ export const RegisterAll = () => {
           dispatch(setLastName(e.target.value));
       }
     };
-
+    
     const handleLogoClick = () => {
       navigate('/login'); 
     };
@@ -30,6 +32,7 @@ export const RegisterAll = () => {
     const handleNext = (event) => {
       event.preventDefault();
       dispatch(setDisplayName());
+      dispatch(setRoleAndInitialize(role));
       if (role === 'student') {
         navigate('/register-stu');
       } else if (role === 'professor') {
@@ -49,8 +52,8 @@ export const RegisterAll = () => {
                 <form className={styles.form} onSubmit={handleNext}>
                   <h1>Register</h1>
                   <div className={styles["two-inputs-container"]}>
-                    <TextInput name="firstName" placeholder={'First Name'} onChange={handleInputChange} />
-                    <TextInput name="lastName" placeholder={'Last Name'} onChange={handleInputChange} />
+                    <TextInput name="firstName" placeholder={'First Name'} onChange={handleInputChange} value={firstName}/>
+                    <TextInput name="lastName" placeholder={'Last Name'} onChange={handleInputChange} value={lastName}/>
                   </div>
                     <RoleToggle />
                     <ProfilePicFileInput 
