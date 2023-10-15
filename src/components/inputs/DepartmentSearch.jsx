@@ -1,17 +1,41 @@
 // DepartmentSearch.jsx
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import styles from "../../styles/inputStyles/Select.module.css";
-
-export const DepartmentSearch = ({
-    departmentQuery,
+import {
     setDepartmentQuery,
-    filteredDepartments,
+    setSelectedDepartment,
     setFilteredDepartments,
-    selectedDepartment,
-    selectedCollege,
-    setSelectedDepartment
-}) => {
-    return ( 
+    removeSelectedDepartment,
+} from '../../features/selectSlice';
+
+export const DepartmentSearch = () => {
+    const dispatch = useDispatch();
+    const {
+        departmentQuery,
+        filteredDepartments,
+        selectedDepartments,
+        selectedColleges,
+    } = useSelector(state => state.select);  
+
+    const handleDepartmentQueryChange = (e) => {
+        dispatch(setDepartmentQuery(e.target.value));
+    };
+
+    const handleDepartmentSelect = (department) => {
+        dispatch(setSelectedDepartment(department)); 
+        dispatch(setDepartmentQuery(''));  
+        dispatch(setFilteredDepartments([]));  
+    };
+
+    const handleSelectedDepartmentClear = (index) => {
+        const departmentToRemove = selectedDepartments[index];
+        dispatch(removeSelectedDepartment({value: departmentToRemove}));
+    };
+    
+    
+
+    return (
         <div className={styles["departments-wrapper"]}>
                 <label className={styles['select-label']} htmlFor="department">Department</label>
                 <input
@@ -20,20 +44,16 @@ export const DepartmentSearch = ({
                     name="department"
                     className={styles['select-input']}
                     value={departmentQuery}
-                    onChange={(e) => setDepartmentQuery(e.target.value)}
+                    onChange={handleDepartmentQueryChange}
                     placeholder="Search Departments"
-                    disabled={!selectedCollege}
+                    disabled={!selectedColleges}
                 />
                 {departmentQuery && (
                     <ul className={styles['dropdown']}>
                         {filteredDepartments.map(department => (
                             <li 
                                 key={department}
-                                onClick={() => {
-                                    setSelectedDepartment(department);
-                                    setDepartmentQuery('');
-                                    setFilteredDepartments([]);
-                                }}
+                                onClick={() => handleDepartmentSelect(department)}
                             >
                                 {department}
                             </li>
@@ -41,17 +61,17 @@ export const DepartmentSearch = ({
                     </ul>
                 )}
             <div className={styles["selected-departments"]}>
-                {selectedDepartment && (
-                    <div className={styles["selected-department"]}>
-                        <p>{selectedDepartment}</p>
+                {selectedDepartments.map((dept, index) => (
+                    <div key={index} className={styles["selected-department"]}>
+                        <p>{dept}</p>
                         <button
                             className={styles["remove-button"]}
-                            onClick={() => setSelectedDepartment(null)}
+                            onClick={() => handleSelectedDepartmentClear(index)}
                         >
                             <img src="/assets/remove.svg" alt="Remove" />
                         </button>
                     </div>
-                )}
+                ))}
             </div>
         </div>
     );

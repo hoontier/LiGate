@@ -1,47 +1,13 @@
 // userSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
-function createInitialState(role) {
-    let stateObject = {
-      common: {
-        firstName: '',
-        lastName: '',
-        fileName: 'Add Profile Photo (optional)',
-        role: 'professor',
-        displayName: '',
-        email: '',
-        cuid: '',
-        editingDisplayName: false,
-        isOtherSelected: false,
-      }
-    };
-  
-    if (role === 'student') {
-      stateObject.student = {
-        majors: '',
-        minors: '',
-        GPA: null,
-        honors: false,
-        year: '',
-      };
-    } else if (role === 'professor') {
-      stateObject.professor = {
-        academicTitle: '',
-        colleges: '',
-        departments: '',
-      };
-    }
-  
-    return stateObject;
-  }
-
 export const userSlice = createSlice({
     name: 'user',
     initialState: {
         firstName: '',
         lastName: '',
         fileName: 'Add Profile Photo (optional)',
-        role: 'neutral',
+        role: 'professor',
         displayName: '',
         email: '',
         cuid: '',
@@ -71,14 +37,22 @@ export const userSlice = createSlice({
                 state.displayName = 'Prof. ' + state.firstName + ' ' + state.lastName;
             }
         },
+        setEmail: (state, action) => {
+            state.email = action.payload;
+        },
+        setCuid: (state, action) => {
+            state.cuid = action.payload;
+        },
         setEditingDisplayName: (state, action) => {
             state.editingDisplayName = action.payload;
         },
         setIsOtherSelected: (state, action) => {
             state.isOtherSelected = action.payload;
         },
-        setRoleAndInitialize: (state) => {
+        setRoleAndInitialize: (state, action) => {
+            state.role = action.payload;
             if (state.role === 'student') {
+                delete state.professor; // Removing professor data when role is student
                 state.student = {
                     majors: '',
                     minors: '',
@@ -87,13 +61,14 @@ export const userSlice = createSlice({
                     year: '',
                 };
             } else if (state.role === 'professor') {
+                delete state.student; // Removing student data when role is professor
                 state.professor = {
                     academicTitle: '',
                     colleges: '',
                     departments: '',
                 };
             }
-        },
+        },        
         setStudentMajors: (state, action) => {
             state.student.majors = action.payload;
         },
@@ -139,6 +114,8 @@ export const {
     setProfessorAcademicTitle,
     setProfessorColleges,
     setProfessorDepartments,
+    setEmail,
+    setCuid,
 } = userSlice.actions;
 
 export default userSlice.reducer;

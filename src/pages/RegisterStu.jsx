@@ -7,9 +7,12 @@ import { TextInput } from '../components/inputs/TextInput';
 import { MajorsSearch } from '../components/inputs/MajorsSearch';
 import { MinorsSearch } from '../components/inputs/MinorsSearch';
 import { YearDropdown } from '../components/inputs/YearDropdown';
+import { setEmail, setCuid, setStudentGPA, setStudentYear, setStudentHonors, setStudentMajors, setStudentMinors } from '../features/userSlice';
+import { useDispatch, useSelector } from 'react-redux';
 
 export const RegisterStu = () => {
     const navigate = useNavigate(); 
+    const dispatch = useDispatch();
 
     const [selectedYear, setSelectedYear] = useState('');
 
@@ -23,6 +26,16 @@ export const RegisterStu = () => {
         navigate('/register-all');
     }
 
+    const handleInputChange = (e) => {
+        if(e.target.name === 'gpa') {
+            dispatch(setStudentGPA(e.target.value));
+        } else if(e.target.name === 'email') {
+            dispatch(setEmail(e.target.value));
+        } else if(e.target.name === 'cuid') {
+            dispatch(setCuid(e.target.value));
+        }
+    };
+
     return (
         <div className={styles["register-body"]}>
             <div className={styles["main-contents"]}>
@@ -33,19 +46,18 @@ export const RegisterStu = () => {
                 />
                 <form className={styles.form} onSubmit={handleRegister}>
                     <h1>Student Registration</h1>
-                    <DisplayName
-                    />
+                    <DisplayName />
                     <div className={styles["two-inputs-container"]}>
                       <MajorsSearch />
                       <MinorsSearch />
                     </div>
                     <div className={styles["two-inputs-container"]}>
-                      <TextInput placeholder={'GPA'} />
+                      <TextInput placeholder={'GPA'} name={'gpa'} onChange={handleInputChange} />
                       <YearDropdown selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
                     </div>
-                    <TextInput placeholder={'Email'} />
+                    <TextInput placeholder={'Email'} name={'email'} onChange={handleInputChange} />
                     <div className={styles["two-inputs-container"]}>
-                      <TextInput placeholder={'CUID'} />
+                      <TextInput placeholder={'CUID'} name={'cuid'} onChange={handleInputChange} />
                       <div className={styles["tos"]}>
                           <input type="checkbox" id="tos" name="tos" required />
                           <label htmlFor="tos">Current Honors Student</label>
