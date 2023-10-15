@@ -1,0 +1,2102 @@
+[
+  {
+    "name": "Agricultural Mechanization & Business, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Agribusiness, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Agricultural and Applied Economics, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Non-Thesis Option (N/A)"
+  },
+  {
+    "name": "Applied Economics, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Wildlife and Fisheries Biology, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Wildlife and Fisheries Biology, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Conservation Biology (N/A), Fisheries Biology (N/A), Wildlife Biology (N/A)"
+  },
+  {
+    "name": "Turfgrass, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Plant & Environmental Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Agricultural Education, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Animal and Veterinary Sciences, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Animal & Veterinary Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Animal Agribusiness (ANAG), Pre-Veterinary Sciences (PREV), Equine Business (EQUI)"
+  },
+  {
+    "name": "Food, Nutrition, and Packaging Sciences, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Food, Nutrition, & Packaging Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Food Science and Human Nutrition, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Food, Nutrition, & Packaging Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Food Science and Technology (FDST), Nutrition (NUTD)"
+  },
+  {
+    "name": "Food, Nutrition and Culinary Sciences, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Food, Nutrition, & Packaging Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Non-Thesis (N/A)"
+  },
+  {
+    "name": "Plant and Environmental Science, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Plant & Environmental Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Agricultural Biotechnology (N/A), Soil and Water Science (N/A), Agronomy (N/A)"
+  },
+  {
+    "name": "Plant and Environmental Science, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Plant & Environmental Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Horticulture, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Plant & Environmental Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Plant and Environmental Science, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Plant & Environmental Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Agricultural Biotechnology (AGBI), Soil and Water Science (SWS), Agronomy (AGRO)"
+  },
+  {
+    "name": "Agriculture, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Agricultural Systems Management (AGSM), Agricultural Education (AGRE)"
+  },
+  {
+    "name": "Agriculture, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Agricultural Systems Management (AGSM), Agricultural Education (AGRE)"
+  },
+  {
+    "name": "Environmental and Natural Resources, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Natural Resources Management (NRMG), Natural Resources and Economic Policy (NRE), Conservation Biology (COBI)"
+  },
+  {
+    "name": "Forest Resources, MFR",
+    "degree": "Master of Forest Resources",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Forest Resources, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Forest Resources, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Forest Resource Management, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Wildlife and Fisheries Resources, MWFR",
+    "degree": "Master of Wildlife & Fisheries Resources",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "GIS Applications for Natural Resources (GISA)"
+  },
+  {
+    "name": "Wildlife and Fisheries Biology, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Forestry & Environmental Conservation",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Architecture, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Architecture+CommunityBUILD, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Digital Ecologies, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "City and Regional Planning, MCRP",
+    "degree": "Master of City and Regional Planning",
+    "currentDepartment": "Nieri Family Department of Construction, Development and Planning",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Planning, Design, and the Built Environment, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Resilient Urban Design, MRUD",
+    "degree": "Master of Resilient Urban Design",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Landscape Architecture, BLA",
+    "degree": "Bachelor of Landscape Architecture",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Landscape Architecture, MLA",
+    "degree": "Master of Landscape Architecture",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Architecture, MArch",
+    "degree": "Master of Architecture",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": "Architecture (N/A), Architecture and Health (ARHE)"
+  },
+  {
+    "name": "Architecture, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Global Black Studies, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Interdisciplinary Studies",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Women's Leadership, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Interdisciplinary Studies",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Rhetorics, Communication and Information Design, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Interdisciplinary Studies",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Communication, MA",
+    "degree": "Master of Arts",
+    "currentDepartment": "Department of Communication",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Sports Communication, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Communication",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Computer Science, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Computer Science, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Computer Science, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Computer Science, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Human Centered Computing, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Digital Production Arts, MFA",
+    "degree": "Master of Fine Arts",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Digital Production Arts, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Computer Information Systems, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Teaching and Learning, MEd",
+    "degree": "Master of Education",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "STEAM (Science, Technology, Engineering, Arts, and Mathematics) (STEM)\", Experiential Learning for Early Childhood (EXLR), Instructional Coaching (INCO), Effective and Reflective Teaching (EFRE), Self-Designed Specialization (SLFD)"
+  },
+  {
+    "name": "Teaching and Learning, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Educational Leadership, EdS",
+    "degree": "Education Specialist",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "P-12/K-12 Administration (N/A)"
+  },
+  {
+    "name": "Educational Leadership, MEd",
+    "degree": "Master of Education",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Educational Leadership, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Higher Education (E096), P12/K12 Administration (E097)"
+  },
+  {
+    "name": "Educational Leadership, Post Master Certificate",
+    "degree": "Certificate-Post Master",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Online Teaching, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Learning Sciences, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Education Systems Improvement Science, EdD",
+    "degree": "Doctor of Education",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Special Education, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Non-Certification Option (E210), Teacher Certification (E222)"
+  },
+  {
+    "name": "Special Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Learning Disabilities (LEDI), Intellectual Disabilities (INDI), Emotional/Behavioral Disorders (EBDI)"
+  },
+  {
+    "name": "Special Education, MEd",
+    "degree": "Master of Education",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Special Education, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Teacher Residency, Special Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Multi-categorical (N/A)"
+  },
+  {
+    "name": "Counselor Education, EdS",
+    "degree": "Education Specialist",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Clinical Mental Health Counsel (CLMH), School Counseling (SCHC)"
+  },
+  {
+    "name": "Counselor Education, MEd",
+    "degree": "Master of Education",
+    "currentDepartment": "Department of Education and Human Development, Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Clinical Mental Health Counseling (E155), School Counseling (E137), Student Affairs (E156)"
+  },
+  {
+    "name": "Elementary Education, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Non-certification Option (E210), Teacher Certification (E222)"
+  },
+  {
+    "name": "Teacher Residency, Elementary Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Middle Level Education, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "English/Language Art (N/A), Mathematics (N/A), Science (N/A), Social Studies (N/A)"
+  },
+  {
+    "name": "Middle Level Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Teacher Residency, Middle Level Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "English/Language Arts (N/A), Mathematics (N/A), Science (N/A), Social Studies (N/A)"
+  },
+  {
+    "name": "ESOL-English to Speakers of Other Languages, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Secondary Education and Teaching, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "English Emphasis (E050), Mathematics Emphasis (E101), Social Studies (History) Emphasis (E108), Teacher Certification Emphasis (E222), Non-Certification Emphasis (E210)"
+  },
+  {
+    "name": "Secondary Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "English/Language Arts (ENLA), Mathematics (MATH), Science (SCIN), Social Studies (SOST)"
+  },
+  {
+    "name": "Teacher Residency, Secondary Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Social Studies (History) Emphasis (E207), English Emphasis (E050), Mathematics Emphasis (E101), Science (E205)"
+  },
+  {
+    "name": "Early Childhood Education, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Non-certification Option (E210), Teacher Certification (E222)"
+  },
+  {
+    "name": "Teacher Residency, Early Childhood Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Agricultural Education, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Agricultural Education, MAGED",
+    "degree": "Master of Agriculture Education",
+    "currentDepartment": "Department of Agricultural Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Mathematics Teaching, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Non-certification Option (E210), Teacher Certification (E222)"
+  },
+  {
+    "name": "Literacy, MEd",
+    "degree": "Master of Education",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "ESOL Certification (N/A)"
+  },
+  {
+    "name": "Science Teaching, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Biological Science (E098), Physics (E008), Chemistry (E099), Non-Certification Option (E210)"
+  },
+  {
+    "name": "Science Teaching, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Biological Science (E098)"
+  },
+  {
+    "name": "Science, Technology, Engineering, Art and Mathematics (STEAM) in Teaching and Learning, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Literacy, Language and Culture, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "International Engineering and Science, Baccalaureate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Dean of Engineering, Computer & Applied Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biosystems Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Environmental Engineering & Earth Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Bioprocess Engineering (E023), Ecological Engineering (E024)"
+  },
+  {
+    "name": "Biosystems Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Environmental Engineering & Earth Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biosystems Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Environmental Engineering & Earth Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Bioengineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Bioengineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Biomaterials Engineering (BMAT), Bioelectrical Engineering (BELE)"
+  },
+  {
+    "name": "Bioengineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Bioengineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Bioengineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Bioengineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biomedical Engineering, MEng",
+    "degree": "Master of Engineering",
+    "currentDepartment": "Department of Bioengineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Medical Device Design, Recycling and Reprocessing, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Bioengineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Chemical Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Chemical & Biomolecular Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "General (N/A), Biomolecular Engineering (BMOL)"
+  },
+  {
+    "name": "Chemical Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Chemical & Biomolecular Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Non-Thesis (NTO)"
+  },
+  {
+    "name": "Chemical Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Chemical & Biomolecular Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Capital Project Management, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Civil Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Civil Engineering, MEng",
+    "degree": "Master of Engineering",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Risk Engineering & System Analytics (RESA)"
+  },
+  {
+    "name": "Civil Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Civil Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Risk Engineering, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Risk Management, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "System Analytics, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Computer Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Computer Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Computer Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Advanced Power Systems, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Electrical Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Electrical Engineering, MEng",
+    "degree": "Master of Engineering",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Electrical Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Electrical Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Power Systems Engineering, Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Renewable Energy, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Environmental Engineering and Earth Sciences, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Environmental Engineering & Earth Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Environmental Engineering and Science, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Environmental Engineering & Earth Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Environmental Health Physics (E124)"
+  },
+  {
+    "name": "Environmental Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Environmental Engineering & Earth Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "General (N/A), Natural Systems (NASY)"
+  },
+  {
+    "name": "Materials Science and Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "School of Materials Science & Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Inorganic Materials (INOR), Polymeric Materials (POLM)"
+  },
+  {
+    "name": "Materials Science and Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Materials Science & Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Non-Thesis Option (N/A)"
+  },
+  {
+    "name": "Materials Science and Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "School of Materials Science & Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Mechanical Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Mechanical Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Mechanical Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Mechanical Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Mechanical Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Mechanical Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Systems Engineering, Post-Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Industrial Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Software Intensive Systems (N/A), Manufacturing and Service Enterprise Systems (N/A)"
+  },
+  {
+    "name": "Systems Engineering, MEng",
+    "degree": "Master of Engineering",
+    "currentDepartment": "Department of Industrial Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Industrial Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Industrial Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Industrial Engineering, MEng",
+    "degree": "Master of Engineering",
+    "currentDepartment": "Department of Industrial Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Supply Chain and Logistics (N/A)"
+  },
+  {
+    "name": "Industrial Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Industrial Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Industrial Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Industrial Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Supply Chain and Logistics (N/A)"
+  },
+  {
+    "name": "Six Sigma, Baccalaureate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Department of Industrial Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Advanced Manufacturing, Baccalaureate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Dean of Engineering, Computer & Applied Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Automotive Engineering, Baccalaureate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Department of Automotive Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Automotive Engineering, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Automotive Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Vehicular Manufacturing & Materials (MANF), Vehicle Performance (VPER), Advanced Powertrains and Drivelines (POWR), Vehicle Automation and Electronics (AUEL)"
+  },
+  {
+    "name": "Automotive Engineering, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Automotive Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Automotive Engineering, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Automotive Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Engineering and Science Education, Post Master Certificate",
+    "degree": "Certificate-Post Master",
+    "currentDepartment": "Department of Engineering & Science Education",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Packaging Science, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Food, Nutrition, & Packaging Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Packaging Science, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Food, Nutrition, & Packaging Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Engineering and Science Education, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Engineering & Science Education",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Modern Languages, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Languages",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": "French (E110), German (E111), Spanish (E112), Japanese (E006), Italian (E070), American Sign Language (E069), Chinese (E068)"
+  },
+  {
+    "name": "Language and International Health, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Languages",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "ASL-English Education Interpreting, Certificate",
+    "degree": "Certificate",
+    "currentDepartment": "Department of Languages",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Language and International Business, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Languages",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "International Family and Community Studies, Post-Baccalaureate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "International Family and Community Studies, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Community Services (N/A), Social Policy (N/A)"
+  },
+  {
+    "name": "Youth Development Leadership, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Youth Development Leadership, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Youth Development Studies, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "English, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of English",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "English, MA",
+    "degree": "Master of Arts",
+    "currentDepartment": "Department of English",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Writing, Rhetoric, and Media, MA",
+    "degree": "Master of Arts",
+    "currentDepartment": "Department of English",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Communication, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Communication",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Health Communication (E232), Strategic Communication (E233), Media and Technology Studies (E234), Generalist (E235)"
+  },
+  {
+    "name": "Biological Sciences, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biological Sciences, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": "Entomology (E077)"
+  },
+  {
+    "name": "Biological Sciences, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": "Non-Thesis option (N/A)"
+  },
+  {
+    "name": "Biological Sciences, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biochemistry and Molecular Biology, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Genetics and Biochemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biochemistry and Molecular Biology, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Genetics and Biochemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biochemistry, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Genetics and Biochemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Microbiology, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": "General (N/A), Biomedicine (BIOM)"
+  },
+  {
+    "name": "Microbiology, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Microbiology, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Entomology, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Plant & Environmental Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Entomology, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Plant & Environmental Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Animal and Veterinary Sciences, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Animal & Veterinary Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": "Non-thesis option (N/A)"
+  },
+  {
+    "name": "Animal and Veterinary Sciences, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Animal & Veterinary Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Genetics, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Genetics and Biochemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Genetics, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Genetics and Biochemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Genetics, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Genetics and Biochemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Healthcare Genetics and Genomics, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "School of Nursing",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Translational Genomics, Post Bacc Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Dean College of Agriculture, Forestry and Life Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Environmental Toxicology, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Environmental Toxicology, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Biological Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Mathematical Sciences, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "School of Mathematical and Statistical Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Mathematical Sciences, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "School of Mathematical and Statistical Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": "General (N/A), Biology (BIOL), Mathematics Emphasis (N/A)"
+  },
+  {
+    "name": "Mathematical Sciences, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Mathematical and Statistical Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Mathematical Sciences, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "School of Mathematical and Statistical Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Historic Preservation, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": "Fundamentals of Historic Preservation (N/A), Advanced Applications of Historic Preservation (N/A)"
+  },
+  {
+    "name": "Historic Preservation, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Business Anthropology and Human Behavior, Certificate",
+    "degree": "Certificate",
+    "currentDepartment": "Department of Sociology, Anthropology & Criminal Justice",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Data Science and Analytics, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Mathematical and Statistical Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Athletic Leadership in Education, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Parks, Recreation and Tourism Management, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Recreational Therapy (RETH), \"Parks, Recreation, and Tourism (PRT)"
+  },
+  {
+    "name": "Parks, Recreation and Tourism Management, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Non-Thesis Option (N/A)"
+  },
+  {
+    "name": "Parks, Recreation and Tourism Management, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Recreational Therapy (RETH)"
+  },
+  {
+    "name": "Athletic Leadership, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Philosophy, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Philosophy & Religion",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": "Medicine, Health, and Human Values (E238)"
+  },
+  {
+    "name": "Religious Studies, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Philosophy & Religion",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Chemistry, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Chemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Chemistry, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Chemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Chemistry, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Chemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": "Non-Thesis (N/A)"
+  },
+  {
+    "name": "Chemistry, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Chemistry",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Geology, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Environmental Engineering & Earth Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Environmental Science (ENSC), Hydrogeology (HYDR), General (N/A)"
+  },
+  {
+    "name": "Hydrogeology, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Environmental Engineering & Earth Sciences",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Physics, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Physics and Astronomy",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Physics, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Physics and Astronomy",
+    "currentCollege": "College of Science",
+    "activeConcentrations": "General (N/A)"
+  },
+  {
+    "name": "Physics, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Physics and Astronomy",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Physics, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Physics and Astronomy",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Photonic Science and Technology, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Photonic Science and Technology, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Holcombe Department of Electrical & Computer Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Psychology, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Psychology",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Psychology, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Psychology",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Applied Psychology, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Psychology",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Health Psychology (HPSY), Human Factors Psychology (HFPS), Industrial/Organizational Psychology (IOPS)"
+  },
+  {
+    "name": "Industrial/Organizational Psychology, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Psychology",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Applied Behavior Analysis, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Human Factors Psychology, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Psychology",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Homeland Defense and Security, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Master of Public Administration Programs",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Emergency Management, Post-Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Master of Public Administration Programs",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Public Administration, MPA",
+    "degree": "Master of Public Administration",
+    "currentDepartment": "Department of Political Science",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Community Services (N/A), Social Policy (N/A)"
+  },
+  {
+    "name": "Public Administration, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Master of Public Administration Programs",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Policy Studies, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Political Science",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Agricultural Policy (N/A), Environmental and Natural Resource Policy (N/A), Economic Development (N/A), Science and Technology (N/A)"
+  },
+  {
+    "name": "Policy Studies, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Political Science",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Anthropology, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Sociology, Anthropology & Criminal Justice",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Anthropology, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Sociology, Anthropology & Criminal Justice",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Criminal Justice, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Sociology, Anthropology & Criminal Justice",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "General (GJST), Legal (LEGL)"
+  },
+  {
+    "name": "Criminal Justice, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Sociology, Anthropology & Criminal Justice",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "General (GJST), Legal (LEGL)"
+  },
+  {
+    "name": "Economics, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Economics",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Economics, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Economics",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Economics, MA",
+    "degree": "Master of Arts",
+    "currentDepartment": "Department of Economics",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Economics, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Economics",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Political Science, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Political Science",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Political Science, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Political Science",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "American Politics (AMPO), Global Politics (GLPO), Political Economy (POEC), Public Administration (PADM), Public Policy (PUPO)"
+  },
+  {
+    "name": "Sociology, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Sociology, Anthropology & Criminal Justice",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Community Studies (E015)"
+  },
+  {
+    "name": "Sociology, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Sociology, Anthropology & Criminal Justice",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Community Studies (E015)"
+  },
+  {
+    "name": "Social Science, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Sociology, Anthropology & Criminal Justice",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Graphic Communications, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Graphic Communications",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Graphic Communications, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Graphic Communications",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "World Cinema, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Interdisciplinary Studies",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Visual Arts, BFA",
+    "degree": "Bachelor of Fine Arts",
+    "currentDepartment": "Department of Art",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Visual Arts, MFA",
+    "degree": "Master of Fine Arts",
+    "currentDepartment": "Department of Art",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Performing Arts, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Performing Arts",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": "Audio Technology (AUDI), Music (MUSI), Theatre (THEA)"
+  },
+  {
+    "name": "Clinical and Translational Research, Post Master Certificate",
+    "degree": "Certificate-Post Master",
+    "currentDepartment": "Department of Public Health Sciences",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Global Health in Low Resource Countries, Baccalaureate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "School of Nursing",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Applied Health Research and Evaluation, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Public Health Sciences",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Non-thesis option (N/A)"
+  },
+  {
+    "name": "Applied Health Research and Evaluation, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Public Health Sciences",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biomedical Data Science and Informatics (Joint with MUSC), PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biomedical Data Science and Informatics, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Nursing (RN to BSN Completion), BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "School of Nursing",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Nursing Generic (No RN), BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "School of Nursing",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Nursing Generic (No RN), BSN",
+    "degree": "Bachelor of Science Nursing",
+    "currentDepartment": "School of Nursing",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Leadership and Innovation in Health + Design, Post Master Certificate",
+    "degree": "Certificate-Post Master",
+    "currentDepartment": "School of Nursing",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Nursing, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "School of Nursing",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "CNS-Maternal/Child/Adolescent (CAD), CNS-Adult/Gerontology (ADGE), Nursing Education (NED)"
+  },
+  {
+    "name": "Nursing Practice, DNP",
+    "degree": "Doctor of Nursing Practice",
+    "currentDepartment": "School of Nursing",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Family Nurse Practitioner - Primary Care (FNP), Adult-Gerontology Nurse Practitioner - Primary Care  (AGNP), Pediatric Nurse Practitioner - Primary Care (PNP), Health Systems Leadership (HSL), Post Masters DNP (PMAS)"
+  },
+  {
+    "name": "Health Science, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Public Health Sciences",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Health Promotion and Behavior (HPB), Health Services Administration (HSAD), Pre-Professional Health Studies (PPHL)"
+  },
+  {
+    "name": "Public Health, Certificate",
+    "degree": "Certificate",
+    "currentDepartment": "Department of Public Health Sciences",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Business Administration, MBA",
+    "degree": "Master of Business Administration",
+    "currentDepartment": "Master of Business Administration Programs",
+    "currentCollege": "College of Business",
+    "activeConcentrations": "Health Services (N/A), Entrepreneurship and Innovation (ENIN), Business Analytics (BUAN), Digital Brand Communication (DBC)"
+  },
+  {
+    "name": "Management, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Management",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Technology Entrepreneurship, Post Master Certificate",
+    "degree": "Certificate-Post Master",
+    "currentDepartment": "Master of Business Administration Programs",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Business Administration, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Management",
+    "currentCollege": "College of Business",
+    "activeConcentrations": "Executive Leadership (EXLE), Entrepreneurship (ENTR), Information Systems (INSY), Organizational Behavior (ORBE), Strategic ManagemenT (STMA), Supply Chain and Operations Management (SCOM)"
+  },
+  {
+    "name": "Management, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Management",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Non-Profit Leadership, Certificate",
+    "degree": "Certificate",
+    "currentDepartment": "Department of Parks, Recreation, & Tourism Management",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Transportation Safety Administration, MTSA",
+    "degree": "Master of Transportation Safety Administration",
+    "currentDepartment": "Institute for Global Road Safety & Security",
+    "currentCollege": "The Graduate School",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Accounting, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "School of Accountancy",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Accounting, MPAcc",
+    "degree": "Master of Professional Accountancy",
+    "currentDepartment": "School of Accountancy",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Financial Management, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Finance",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Human Resources Development, MHRD",
+    "degree": "Master of Human Resource Development",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "Athletic Leadership (AL), Comprehensive HRD (COMP), Organization Development and Change (ORGD), Digital Learning and Development (DIGL), Learning Leadership (LRNL)"
+  },
+  {
+    "name": "Marketing, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Marketing",
+    "currentCollege": "College of Business",
+    "activeConcentrations": "Research and Insights (E029), Advertising and Media (E030), Experiential Marketing (E032), Sales (E031), General Marketing (E033)"
+  },
+  {
+    "name": "Sales, Baccalaureate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Department of Marketing",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Marketing, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Marketing",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Real Estate Development, MRED",
+    "degree": "Master of Real Estate Development",
+    "currentDepartment": "Nieri Family Department of Construction, Development and Planning",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Sales Engineering, Baccalaureate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Department of Industrial Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Construction Science and Management, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Nieri Family Department of Construction, Development and Planning",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": "Residential Construction (RCON)"
+  },
+  {
+    "name": "Construction Science and Management, MCSM",
+    "degree": "Master of Construction Science & Management",
+    "currentDepartment": "Nieri Family Department of Construction, Development and Planning",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": "Non-thesis (N/A)"
+  },
+  {
+    "name": "Integrated Project Delivery, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "History, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of History and Geography",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": "Digital History Emphasis (E206), Legal History  (E239), Global Security and Challenges (E240)"
+  },
+  {
+    "name": "History, MA",
+    "degree": "Master of Arts",
+    "currentDepartment": "Department of History and Geography",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Economic Analytics, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Economics",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Art, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Art",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": "Studio Art (SART), Digital Art and Design Media (DADM), Art History (AHIS)"
+  },
+  {
+    "name": "Literacy Coach, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Literacy Specialist, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Literacy Teacher, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Education and Human Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Beef Cow-Calf Management, Certificate",
+    "degree": "Certificate",
+    "currentDepartment": "Department of Animal & Veterinary Sciences",
+    "currentCollege": "College of Agriculture, Forestry and Life Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "MBA Business Analytics, Post-Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Master of Business Administration Programs",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Thomas F. Chapman Leadership Certificate, Undergraduate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Dean College of Business",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Orthopedic Medical Device Product Specialist, Baccalaureate Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Department of Bioengineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Digital Technologies and Construction Automation, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Design and Computational Modeling of Geotechnical Systems, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Human Capital Education and Development, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Education and Organization Leadership Development",
+    "currentCollege": "College of Education",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Medical Device Reprocessing, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Bioengineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Applied Computational Mechanical Engineering, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Mechanical Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Autonomous & Robotic Systems, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Mechanical Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Mechanical Engineering Certificate in Advanced Manufacturing Processes, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Mechanical Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Futures of Transportation Engineering, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Water Resources Engineering, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Civil Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Resilient Urban Design, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Wilbur O. and Ann Powers College of Business Leadership Certificate",
+    "degree": "Certificate-Baccalaureate",
+    "currentDepartment": "Dean College of Business",
+    "currentCollege": "College of Business",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Applied Computing, MAC",
+    "degree": "Master of Applied Computing",
+    "currentDepartment": "School of Computing",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": "Artificial Intelligence and Machine Learning (AIML), Cybersecurity (CYBE), Data Science (DASC), Human Computer Interaction (HCIT), Software Engineering (SFEN), Visual Computing (VCOM)"
+  },
+  {
+    "name": "Digital History, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of History and Geography",
+    "currentCollege": "College of Arts and Humanities",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Medical Biophysics, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "Department of Physics and Astronomy",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Resilient Systems, MS",
+    "degree": "Master of Science",
+    "currentDepartment": "",
+    "currentCollege": "The Graduate School",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Medical Biophysics, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Department of Physics and Astronomy",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Modern Languages in Education, BA",
+    "degree": "Bachelor of Art",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "American Sign Language (ASL), French (FRCH), Spanish (SPAN), Non-Certification (N/A), Teacher Certification (N/A)"
+  },
+  {
+    "name": "Modern Languages in Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "American Sign Language (ASL), French (FRCH), Spanish (SPAN)"
+  },
+  {
+    "name": "Teacher Residency, Modern Languages Education, MAT",
+    "degree": "Master of Arts in Teaching",
+    "currentDepartment": "Department of Teaching and Learning",
+    "currentCollege": "College of Education",
+    "activeConcentrations": "American Sign Language (ASL), French (FRCH), Spanish (SPAN)"
+  },
+  {
+    "name": "Architecture, Society and the City, Post-Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "School of Architecture",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Biomedical Regulatory and Quality Science, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Department of Bioengineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Automotive Engineering, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "Department of Automotive Engineering",
+    "currentCollege": "College of Engineering, Computing and Applied Sciences",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Roofing Industry Management, Post Baccalaureate Certificate",
+    "degree": "Certificate-Post Baccalaureate",
+    "currentDepartment": "Nieri Family Department of Construction, Development and Planning",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Construction Science and Management, PhD",
+    "degree": "Doctor of Philosophy",
+    "currentDepartment": "Nieri Family Department of Construction, Development and Planning",
+    "currentCollege": "College of Architecture, Arts and Construction",
+    "activeConcentrations": ""
+  },
+  {
+    "name": "Public Health, MPH",
+    "degree": "Master of Public Health",
+    "currentDepartment": "Department of Public Health Sciences",
+    "currentCollege": "College of Behavioral, Social and Health Sciences",
+    "activeConcentrations": "Rural and Community Health (RCH), Outcomes and Quality Improvement (OQI)"
+  },
+  {
+    "name": "Data Science, BS",
+    "degree": "Bachelor of Science",
+    "currentDepartment": "School of Mathematical and Statistical Sciences",
+    "currentCollege": "College of Science",
+    "activeConcentrations": ""
+  }
+]

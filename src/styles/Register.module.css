@@ -44,13 +44,23 @@ body {
     max-width: 150px;
 }
 
+
+/* Register.module.css */
+.dropdown {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
 /* Form Styles */
 .form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 25px;
+    gap: 10px;
     width: 100%;  /* Ensures form container takes the full width */
 }
 
@@ -61,10 +71,9 @@ h1 {
 
 .two-inputs-container {
     display: flex;
-    align-items: flex-start;
-    gap: 9px;
+    align-items: center;
+    gap: 10px;
     width: 100%; 
-    justify-content: space-between;
 }
 
 /* Terms of Service Styles */
@@ -80,7 +89,28 @@ h1 {
     height: 20px;
 }
 
-/* Button Styles */
+.tos label {
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures that the text does not overflow the container visibly */
+    text-overflow: ellipsis; /* Adds an ellipsis (...) for overflowed text */
+    width: calc(100% - 25px); /* Assuming 20px for checkbox and 5px as a minimal gap */
+    max-width: 80%; /* Optionally limit the maximum width */
+}
+
+/* register styles */
+.register-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.register-buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .register-button {
     padding: 21px;
     border: none;
@@ -88,7 +118,6 @@ h1 {
     background-color: #522D80;
     color: white;
     cursor: pointer;
-    width: 100%;
     box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.15);
     font-size: 16px;
 }
@@ -99,6 +128,5 @@ h1 {
     align-items: center;
     width: 100%;
     margin: 0;
-    margin-top: -15px;
-    font-size: 16px;;
+    font-size: 16px;
 }

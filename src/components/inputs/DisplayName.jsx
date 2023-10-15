@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../styles/RegisterAll.module.css";
+import styles from "../../styles/inputStyles/DisplayName.module.css";
 
 export const DisplayName = ({
   firstName, 

@@ -1,4 +1,4 @@
-.college-department-label {
+.select-label {
     display: block;
     margin-bottom: 8px;
     font-size: 16px;
@@ -14,7 +14,13 @@
 .departments-wrapper {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
+}
+
+.majors-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .select-input {
@@ -28,7 +34,7 @@
     position: relative;
 }
 
-.selected-department, .selected-college {
+.selected-department, .selected-college, .selected-major {
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.42);
     background-color: #fff;

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';  // Import useNavigate
 import { TextInput } from '../components/inputs/TextInput';
 import { ProfilePicFileInput } from '../components/inputs/ProfilePicFileInput';
 import { RoleToggle } from '../components/inputs/RoleToggle';
-import styles from "../styles/RegisterAll.module.css"
+import styles from "../styles/Register.module.css"
 
 
 export const RegisterAll = () => {
@@ -51,18 +51,14 @@ export const RegisterAll = () => {
                     <TextInput placeholder={'First Name'} />
                     <TextInput placeholder={'Last Name'} />
                   </div>
-                    <RoleToggle role={role} setRole={setRole} />
+                    <RoleToggle role={role} setRole={setRole} toggleRole={toggleRole} />
                     <ProfilePicFileInput 
                         fileName={fileName} 
                         setFileName={setFileName} 
                         styles={styles} 
                     />
-                  <div className={styles["tos"]}>
-                  <input type="checkbox" id="tos" name="tos" required />
-                  <label htmlFor="tos">I agree to the Terms of Service</label>
-              </div>
-              <button type="submit" className={styles['register-button']}>Next</button>
-              <p className={styles['page-count']}>Page 1 of 2</p>
+                  <button type="submit" className={styles['register-button']}>Next</button>
+                  <p className={styles['page-count']}>Page 1 of 2</p>
                 </form>
             </div>
             <div className={styles["image"]}>

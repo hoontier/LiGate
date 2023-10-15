@@ -1,6 +1,6 @@
 // DepartmentSearch.jsx
 import React from 'react';
-import styles from "../../styles/inputStyles/DepartmentAndCollegeSearch.module.css";
+import styles from "../../styles/inputStyles/Select.module.css";
 
 export const DepartmentSearch = ({
     departmentQuery,
@@ -13,7 +13,7 @@ export const DepartmentSearch = ({
 }) => {
     return ( 
         <div className={styles["departments-wrapper"]}>
-                <label className={styles['college-department-label']} htmlFor="department">Department</label>
+                <label className={styles['select-label']} htmlFor="department">Department</label>
                 <input
                     type="text"
                     id="department"

@@ -1,7 +1,7 @@
 // RegisterProf.jsx
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from "../styles/RegisterAll.module.css"
+import styles from "../styles/Register.module.css"
 import { CollegeSearch } from '../components/inputs/CollegeSearch';
 import { DepartmentSearch } from '../components/inputs/DepartmentSearch';
 import { DisplayName } from '../components/inputs/DisplayName';
@@ -131,7 +131,20 @@ export const RegisterProf = () => {
                             setSelectedDepartment={setSelectedDepartment}
                         />
                     </div>
-                    <button className={styles["register-button"]} type="submit">Register</button>
+                    <TextInput placeholder={'Email'} />
+                    <TextInput placeholder={'CUID'} />
+                    <div className={styles["register-container"]}>
+                      <div className={styles["tos"]}>
+                          <input type="checkbox" id="tos" name="tos" required />
+                          <label htmlFor="tos">I agree to the Terms of Service</label>
+                      </div>
+                      <div className={styles["register-buttons"]}>
+                      <div className={styles["back-link"]}>
+                          <a href="/register-all">Back</a>
+                      </div>
+                      <button className={styles["register-button"]} type="submit">Register</button>
+                      </div>
+                    </div>
                     <p className={styles['page-count']}>Page 2 of 2</p>
                 </form>
             </div>

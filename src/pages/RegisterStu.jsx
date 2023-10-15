@@ -1,35 +1,29 @@
 // RegisterStu.jsx
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';  // Import useNavigate
-import styles from "../styles/RegisterAll.module.css"
-
+import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from "../styles/Register.module.css"
+import { DisplayName } from '../components/inputs/DisplayName';
+import { TextInput } from '../components/inputs/TextInput';
+import { MajorsSearch } from '../components/inputs/MajorsSearch';
+import { MinorsSearch } from '../components/inputs/MinorsSearch';
+import { YearDropdown } from '../components/inputs/YearDropdown';
 
 export const RegisterStu = () => {
-    // Function to display the selected file name
-    const [fileName, setFileName] = React.useState('Add Profile Photo (optional)');
-    const [role, setRole] = useState('neutral');
+    const navigate = useNavigate(); 
+    // sample first and last name
+    const [firstName, setFirstName] = useState('John');
+    const [lastName, setLastName] = useState('Doe');
+    const [displayName, setDisplayName] = useState(`Prof. ${firstName} ${lastName}`);
 
-    const navigate = useNavigate();  
+    const [editingDisplayName, setEditingDisplayName] = useState(false);
+    const [isOtherSelected, setIsOtherSelected] = useState(false);
 
-    const handleFileChange = (event) => {
-        setFileName(event.target.files[0] ? event.target.files[0].name : 'Add Profile Photo (optional)'); 
-    };
-
-    const handleLogoClick = () => {
-      navigate('/login'); 
-    };
-
-    const toggleRole = (event) => {
-      const clickedRole = event.target.innerText.toLowerCase();
-      setRole(clickedRole);
-    };
+    const [selectedYear, setSelectedYear] = useState('');
 
     const handleRegister = (event) => {
-      event.preventDefault();  // Prevents the default form submission behavior
-      navigate('/home');
-    }
-  
-  
+        event.preventDefault();  // Prevents the default form submission behavior
+        navigate('/home');
+      }
 
     return (
         <div className={styles["register-body"]}>
@@ -38,40 +32,48 @@ export const RegisterStu = () => {
                     className={styles['logo']} 
                     alt="LiGate" 
                     src="/assets/LiGateLogo.svg" 
-                    onClick={handleLogoClick}  
                 />
                 <form className={styles.form} onSubmit={handleRegister}>
-                  <h1>Register</h1>
-                  <div className={styles["name-inputs"]}>
-                    <input className={styles["text-input"]} type="text" placeholder="First Name" />
-                    <input className={styles["text-input"]} type="text" placeholder="Last Name" />
-                  </div>
-                  <div className={styles["toggle-role-container"]}>
-                <p>I am a...</p>
-                <div className={styles["role-toggle"]}>
-                    <div className={styles["toggler-container"]}>
-                      <p onClick={toggleRole} className={styles["toggler"]}>Student</p>
+                    <h1>Student Registration</h1>
+                    <DisplayName
+                        firstName={firstName}
+                        lastName={lastName}
+                        displayName={displayName}
+                        setDisplayName={setDisplayName}
+                        editingDisplayName={editingDisplayName}
+                        setEditingDisplayName={setEditingDisplayName}
+                        isOtherSelected={isOtherSelected}
+                        setIsOtherSelected={setIsOtherSelected}
+                    />
+                    <div className={styles["two-inputs-container"]}>
+                      <MajorsSearch />
+                      <MinorsSearch />
                     </div>
-                    <div 
-                        className={`${styles["selector"]} ${role === 'student' ? styles["left"] : styles["right"]}`} 
-                    >
+                    <div className={styles["two-inputs-container"]}>
+                      <TextInput placeholder={'GPA'} />
+                      <YearDropdown selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
                     </div>
-                    <div className={styles["toggler-container"]}>
-                      <p onClick={toggleRole} className={styles["toggler"]}>Professor</p>
+                    <TextInput placeholder={'Email'} />
+                    <div className={styles["two-inputs-container"]}>
+                      <TextInput placeholder={'CUID'} />
+                      <div className={styles["tos"]}>
+                          <input type="checkbox" id="tos" name="tos" required />
+                          <label htmlFor="tos">Current Honors Student</label>
+                      </div>
                     </div>
-                </div>
-              </div>
-                  <label className={styles["file-input-label"]}>
-                    <img className={styles["file-input-icon"]} src="/assets/AddProfile.svg" alt="" aria-hidden="true" />
-                    <input className={`${styles["file-input"]} ${styles["upload-input"]}`} type="file" accept="image/*" onChange={handleFileChange} />
-                    <span className={styles["file-input-text"]}>{fileName}</span>
-                  </label>
-                  <div className={styles["tos"]}>
-                  <input type="checkbox" id="tos" name="tos" required />
-                  <label htmlFor="tos">I agree to the Terms of Service</label>
-              </div>
-              <button type="submit">Register</button>
-              <p className={styles['page-count']}>Page 2 of 2</p>
+                    <div className={styles["register-container"]}>
+                      <div className={styles["tos"]}>
+                          <input type="checkbox" id="tos" name="tos" required />
+                          <label htmlFor="tos">I agree to the Terms of Service</label>
+                      </div>
+                      <div className={styles["register-buttons"]}>
+                      <div className={styles["back-link"]}>
+                          <a href="/register-all">Back</a>
+                      </div>
+                      <button className={styles["register-button"]} type="submit">Register</button>
+                      </div>
+                    </div>
+                    <p className={styles['page-count']}>Page 2 of 2</p>
                 </form>
             </div>
             <div className={styles["image"]}>
