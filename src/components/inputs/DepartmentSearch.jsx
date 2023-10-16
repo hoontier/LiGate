@@ -57,14 +57,17 @@ export const DepartmentSearch = () => {
                 />
                 {departmentQuery && (
                     <ul className={styles['dropdown']}>
-                        {filteredDepartments.map(department => (
-                            <li 
-                                key={department}
-                                onClick={() => handleDepartmentSelect(department)}
-                            >
-                                {department}
-                            </li>
-                        ))}
+                        {filteredDepartments.map(department => {
+                            console.log('Rendering department with key: ', department.value);
+                            return (
+                                <li 
+                                    key={department.value}
+                                    onClick={() => handleDepartmentSelect(department)}
+                                >
+                                    {department.name}
+                                </li>
+                            );
+                        })}
                     </ul>
                 )}
             <div className={styles["selected-departments"]}>

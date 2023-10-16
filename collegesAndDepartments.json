@@ -5,17 +5,17 @@
             "departments": [
                 "Department of Agricultural Sciences",
                 "Department of Animal and Veterinary Sciences",
-                "Department of Food, Nutrition and Packaging Science",
+                "Department of Food, Nutrition, and Packaging Sciences",
                 "Department of Forestry and Environmental Conservation",
                 "Department of Plant and Environmental Sciences"
             ]
         },
         {
-            "name": "College of Architecture, Art and Construction",
+            "name": "College of Architecture, Arts and Construction",
             "departments": [
                 "School of Architecture",
                 "Department of Art",
-                "Nieri Department of Construction, Development and Planning"
+                "Nieri Family Department of Construction, Development and Planning"
             ]
         },
         {
@@ -34,7 +34,7 @@
             "departments": [
                 "Department of Communication",
                 "School of Nursing",
-                "Department of Parks, Recreation and Tourism Management",
+                "Department of Parks, Recreation, and Tourism Management",
                 "Department of Political Science",
                 "Department of Psychology",
                 "Department of Public Health Sciences",
@@ -54,7 +54,7 @@
                 "Department of Engineering and Science Education",
                 "Department of Environmental Engineering and Earth Sciences",
                 "Department of Industrial Engineering",
-                "Department of Materials Science and Engineering",
+                "School of Materials Science and Engineering",
                 "Department of Mechanical Engineering"
             ]
         },

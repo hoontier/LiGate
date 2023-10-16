@@ -1,6 +1,6 @@
 // selectSlice.js
 import { createSlice } from '@reduxjs/toolkit';
-import collegesAndDepartments from '../../collegesAndDepartments.json';
+import collegesAndDepartments from '../../combinedData.json';
 
 const initialState = {
     colleges: collegesAndDepartments.colleges.map(college => ({
@@ -21,18 +21,22 @@ export const selectSlice = createSlice({
     initialState,
     reducers: {
         setSelectedCollege: (state, action) => {
+            console.log("Payload: ", action.payload);
             state.selectedColleges.push(action.payload);
             // If a college is selected, filter its departments
             const selected = collegesAndDepartments.colleges.find(
-                college => college.name === action.payload.value
-            );
+                college => college.name === action.payload.name
+            );            
+
+            console.log("Selected: ", selected); 
 
             state.departments = selected 
                 ? selected.departments.map(department => ({
-                    value: department,
-                    label: department
+                    value: department.name,
+                    label: department.name
                 }))
                 : []; 
+            console.log("Departments: ", state.departments); 
         },
         removeSelectedCollege: (state, action) => {
             console.log(action.payload);
@@ -58,31 +62,44 @@ export const selectSlice = createSlice({
         },
         setDepartmentQuery: (state, action) => {
             state.departmentQuery = action.payload;
-        
-            // Filtering departments based on the user's input
+            
+            console.log('Action payload:', action.payload);
+            console.log('Current department query:', state.departmentQuery);
+            
             if(state.selectedColleges.length > 0 && state.departmentQuery) {
+                console.log('Entering filtering logic.');
+                
                 state.filteredDepartments = [];
-        
                 state.selectedColleges.forEach(selectedCollege => {
+                    console.log('Iterating through selectedCollege:', selectedCollege);
+        
                     const selected = collegesAndDepartments.colleges.find(
-                        college => college.name === selectedCollege.value
+                        college => college.name === selectedCollege.name // Modified line
                     );
                     
+                    console.log('Found selected college:', selected);
+        
                     if(selected) {
-                        const filtered = selected.departments.filter(department =>
-                            department.toLowerCase().includes(state.departmentQuery.toLowerCase())
-                        );
+                        const filtered = selected.departments.filter(department => {
+                            console.log('Department:', department); // Log each department object
+                            
+                            // Safely check if label matches the query
+                            return department?.name?.toLowerCase().includes(state.departmentQuery.toLowerCase()) ?? false;
+                        });
                         
+                        console.log('Filtered departments:', filtered);
                         state.filteredDepartments.push(...filtered);
-                    }
+                    }                    
                 });
                 
-                // Removing duplicates from filteredDepartments, if any
-                state.filteredDepartments = [...new Set(state.filteredDepartments)];
+                // Ensuring unique values – note: using Set with objects might not work as intended due to reference differences.
+                state.filteredDepartments = Array.from(new Set(state.filteredDepartments.map(JSON.stringify))).map(JSON.parse);
+                console.log('Final filteredDepartments:', state.filteredDepartments);
             } else {
+                console.log('No colleges selected or department query not set.');
                 state.filteredDepartments = [];
             }
-        },                 
+        },                  
         setFilteredColleges: (state, action) => {
             state.filteredColleges = action.payload;
         },
