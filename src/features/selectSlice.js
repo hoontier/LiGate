@@ -47,7 +47,7 @@ export const selectSlice = createSlice({
         },        
         removeSelectedDepartment: (state, action) => {
             state.selectedDepartments = state.selectedDepartments.filter(
-                department => department !== action.payload.value
+                department => department.name !== action.payload.name
             );
         },        
         setCollegeQuery: (state, action) => {

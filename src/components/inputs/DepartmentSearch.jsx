@@ -34,7 +34,8 @@ export const DepartmentSearch = () => {
 
     const handleSelectedDepartmentClear = (index) => {
         const departmentToRemove = selectedDepartments[index];
-        dispatch(removeSelectedDepartment({value: departmentToRemove}));
+        dispatch(removeSelectedDepartment({name: departmentToRemove.name}));
+
 
         const updatedDepartments = selectedDepartments.filter((_, i) => i !== index);
         dispatch(setProfessorDepartment(updatedDepartments));
@@ -58,10 +59,10 @@ export const DepartmentSearch = () => {
                 {departmentQuery && (
                     <ul className={styles['dropdown']}>
                         {filteredDepartments.map(department => {
-                            console.log('Rendering department with key: ', department.value);
+                            console.log('Rendering department with key: ', department.name);
                             return (
                                 <li 
-                                    key={department.value}
+                                    key={department.name}
                                     onClick={() => handleDepartmentSelect(department)}
                                 >
                                     {department.name}
@@ -73,7 +74,7 @@ export const DepartmentSearch = () => {
             <div className={styles["selected-departments"]}>
                 {selectedDepartments.map((dept, index) => (
                     <div key={index} className={styles["selected-department"]}>
-                        <p>{dept}</p>
+                        <p>{dept.name}</p>
                         <button
                             className={styles["remove-button"]}
                             onClick={() => handleSelectedDepartmentClear(index)}
