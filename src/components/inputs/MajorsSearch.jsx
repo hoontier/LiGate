@@ -1,32 +1,36 @@
-import React, { useEffect, useState } from 'react';
-import majorsData from '../../../majors.json';
+// MajorsSearch.jsx
+import React from 'react';
 import styles from '../../styles/inputStyles/Select.module.css';
+import { useSelector, useDispatch } from 'react-redux';
+import {
+    setSelectedMajor,
+    removeSelectedMajor,
+    setMajorQuery,
+    setFilteredMajors,
+} from '../../features/selectSlice';
 
 export const MajorsSearch = () => {
-  const [majors, setMajors] = useState([]);
-  const [majorQuery, setMajorQuery] = useState('');
-  const [filteredMajors, setFilteredMajors] = useState([]);
-  const [selectedMajor, setSelectedMajor] = useState(null);
+  const dispatch = useDispatch();
+  const {
+    selectedMajors,
+    majorQuery,
+    filteredMajors,
+  } = useSelector(state => state.select);
 
-  useEffect(() => {
-    const majorOptions = majorsData.map(major => ({
-      value: major.name,
-      label: major.name,
-    }));
-    setMajors(majorOptions);
-  }, []);
+  const handleMajorQueryChange = (e) => {
+    dispatch(setMajorQuery(e.target.value));
+  }
 
-  useEffect(() => {
-    if(majorQuery !== '') {
-      setFilteredMajors(
-        majors.filter(major => 
-            major.label.toLowerCase().includes(majorQuery.toLowerCase())
-         )
-      );
-    } else {
-      setFilteredMajors([]);
-    }
-  }, [majorQuery, majors]);
+  const handleMajorSelect = (major) => {
+    dispatch(setSelectedMajor(major));
+    dispatch(setMajorQuery(''));
+    dispatch(setFilteredMajors([]));
+  }
+
+  const handleSelectedMajorClear = (major) => {
+    dispatch(removeSelectedMajor(major));
+  }
+
 
   return (
     <div className={styles["majors-wrapper"]}>
@@ -37,36 +41,33 @@ export const MajorsSearch = () => {
         name="major"
         className={styles['select-input']}
         value={majorQuery}
-        onChange={(e) => setMajorQuery(e.target.value)}
+        onChange={handleMajorQueryChange}
         placeholder="Search majors"
       />
       {majorQuery && (
           <ul className={styles['dropdown']}>
               {filteredMajors.map(major => (
                   <li 
-                      key={major.value}
-                      onClick={() => {
-                          setSelectedMajor(major);
-                          setMajorQuery('');
-                      }}
+                      key={major.majorName}
+                      onClick={() => handleMajorSelect(major)}
                   >
-                      {major.label}
+                      {major.majorName}
                   </li>
               ))}
           </ul>
       )}
       <div className={styles["selected-majors"]}>
-          {selectedMajor && (
-              <div className={styles["selected-major"]}>
-                  <p>{selectedMajor.label}</p>
+          {selectedMajors.map((major, index) => (
+              <div className={styles["selected-major"]} key={index}>
+                  <p>{major.majorName}</p>
                   <button
                       className={styles["remove-button"]}
-                      onClick={() => setSelectedMajor(null)}
+                      onClick={() => handleSelectedMajorClear(major)}
                   >
                       <img src="/assets/remove.svg" alt="Remove" />
                   </button>
               </div>
-          )}
+          ))}
       </div> 
     </div>
   );

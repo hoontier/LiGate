@@ -14,6 +14,20 @@ const initialState = {
     filteredColleges: [],
     departmentQuery: '',
     filteredDepartments: [],
+    majors: collegesAndDepartments.colleges.reduce((acc, college) => {
+        college.departments.forEach(department => {
+            department.majors.forEach(major => {
+                acc.push({
+                    majorName: major.name
+                });
+            });
+        });
+
+        return acc;
+    }, []),
+    selectedMajors: [],
+    majorQuery: '',
+    filteredMajors: [],
 };
 
 export const selectSlice = createSlice({
@@ -106,6 +120,28 @@ export const selectSlice = createSlice({
         setFilteredDepartments: (state, action) => {
             state.filteredDepartments = action.payload;
         },
+        setSelectedMajor: (state, action) => {
+            state.selectedMajors.push(action.payload);
+        },
+        removeSelectedMajor: (state, action) => {
+            state.selectedMajors = state.selectedMajors.filter(
+                major => major.majorName !== action.payload.majorName
+            );
+        },        
+        setMajorQuery: (state, action) => {
+            state.majorQuery = action.payload;
+            
+            if(state.majorQuery) {
+                state.filteredMajors = state.majors.filter(major => 
+                    major.majorName.toLowerCase().includes(state.majorQuery.toLowerCase())
+                );
+            } else {
+                state.filteredMajors = [];
+            }
+        },              
+        setFilteredMajors: (state, action) => {
+            state.filteredMajors = action.payload;
+        },
     },
 });
 
@@ -118,6 +154,10 @@ export const {
     setFilteredDepartments,
     removeSelectedCollege,
     removeSelectedDepartment,
+    setSelectedMajor,
+    removeSelectedMajor,
+    setMajorQuery,
+    setFilteredMajors,
 } = selectSlice.actions;
 
 export default selectSlice.reducer;
