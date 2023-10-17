@@ -8,6 +8,10 @@ import {
     setMajorQuery,
     setFilteredMajors,
 } from '../../features/selectSlice';
+import { 
+  setStudentMajors,
+  removeStudentMajor,
+} from '../../features/userSlice';
 
 export const MajorsSearch = () => {
   const dispatch = useDispatch();
@@ -25,10 +29,12 @@ export const MajorsSearch = () => {
     dispatch(setSelectedMajor(major));
     dispatch(setMajorQuery(''));
     dispatch(setFilteredMajors([]));
+    dispatch(setStudentMajors(major));
   }
 
   const handleSelectedMajorClear = (major) => {
     dispatch(removeSelectedMajor(major));
+    dispatch(removeStudentMajor(major));
   }
 
 

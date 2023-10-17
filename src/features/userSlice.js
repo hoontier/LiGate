@@ -54,7 +54,7 @@ export const userSlice = createSlice({
             if (state.role === 'student') {
                 delete state.professor; // Removing professor data when role is student
                 state.student = {
-                    majors: '',
+                    majors: [],
                     minors: '',
                     GPA: null,
                     honors: false,
@@ -70,7 +70,13 @@ export const userSlice = createSlice({
             }
         },        
         setStudentMajors: (state, action) => {
-            state.student.majors = action.payload;
+            state.student.majors.push(action.payload);
+        },
+        removeStudentMajor: (state, action) => {
+            console.log(action.payload);
+            state.student.majors = state.student.majors.filter(
+                major => major.majorName !== action.payload.majorName
+            );
         },
         setStudentMinors: (state, action) => {
             state.student.minors = action.payload;
@@ -107,6 +113,7 @@ export const {
     setIsOtherSelected,
     setRoleAndInitialize,
     setStudentMajors,
+    removeStudentMajor,
     setStudentMinors,
     setStudentGPA,
     setStudentHonors,
