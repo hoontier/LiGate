@@ -1,6 +1,7 @@
 // selectSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 import collegesAndDepartments from '../../combinedData.json';
+import minors from '../../minors.json'; 
 
 const initialState = {
     colleges: collegesAndDepartments.colleges.map(college => ({
@@ -28,6 +29,12 @@ const initialState = {
     selectedMajors: [],
     majorQuery: '',
     filteredMajors: [],
+    minors: minors.map(minor => ({
+        minorName: minor.name
+    })),
+    selectedMinors: [],
+    minorQuery: '',
+    filteredMinors: [],
 };
 
 export const selectSlice = createSlice({
@@ -142,6 +149,28 @@ export const selectSlice = createSlice({
         setFilteredMajors: (state, action) => {
             state.filteredMajors = action.payload;
         },
+        setSelectedMinor: (state, action) => {
+            state.selectedMinors.push(action.payload);
+        },
+        removeSelectedMinor: (state, action) => {
+            state.selectedMinors = state.selectedMinors.filter(
+                minor => minor.minorName !== action.payload.minorName
+            );
+        },
+        setMinorQuery: (state, action) => {
+            state.minorQuery = action.payload;
+            
+            if(state.minorQuery) {
+                state.filteredMinors = state.minors.filter(minor => 
+                    minor.minorName.toLowerCase().includes(state.minorQuery.toLowerCase())
+                );
+            } else {
+                state.filteredMinors = [];
+            }
+        },
+        setFilteredMinors: (state, action) => {
+            state.filteredMinors = action.payload;
+        }
     },
 });
 
@@ -158,6 +187,10 @@ export const {
     removeSelectedMajor,
     setMajorQuery,
     setFilteredMajors,
+    setSelectedMinor,
+    removeSelectedMinor,
+    setMinorQuery,
+    setFilteredMinors,
 } = selectSlice.actions;
 
 export default selectSlice.reducer;

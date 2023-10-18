@@ -1,73 +1,80 @@
-import React, { useEffect, useState } from 'react';
-import minorsData from '../../../minors.json';
+// MinorsSearch.jsx
+import React from 'react';
 import styles from '../../styles/inputStyles/Select.module.css';
+import { useSelector, useDispatch } from 'react-redux';
+import {
+    setSelectedMinor,
+    removeSelectedMinor,
+    setMinorQuery,
+    setFilteredMinors,
+} from '../../features/selectSlice';
+import { 
+  setStudentMinors,
+  removeStudentMinor,
+} from '../../features/userSlice';
 
-export const MinorsSearch = () => { // Changed the component name to MinorsSearch
-  const [minors, setMinors] = useState([]); // Changed variable names from "majors" to "minors"
-  const [minorQuery, setMinorQuery] = useState(''); // Changed variable names from "major" to "minor"
-  const [filteredMinors, setFilteredMinors] = useState([]); // Changed variable names from "filteredMajors" to "filteredMinors"
-  const [selectedMinor, setSelectedMinor] = useState(null); // Changed variable names from "selectedMajor" to "selectedMinor"
+export const MinorsSearch = () => {
+  const dispatch = useDispatch();
+  const {
+    selectedMinors,
+    minorQuery,
+    filteredMinors,
+  } = useSelector(state => state.select);
 
-  useEffect(() => {
-    const minorOptions = minorsData.map(minor => ({ // Changed variable names from "major" to "minor"
-      value: minor.name,
-      label: minor.name,
-    }));
-    setMinors(minorOptions);
-  }, []);
+  const handleMinorQueryChange = (e) => {
+    dispatch(setMinorQuery(e.target.value));
+  }
 
-  useEffect(() => {
-    if (minorQuery !== '') {
-      setFilteredMinors(
-        minors.filter(minor =>
-          minor.label.toLowerCase().includes(minorQuery.toLowerCase())
-        )
-      );
-    } else {
-      setFilteredMinors([]);
-    }
-  }, [minorQuery, minors]);
+  const handleMinorSelect = (minor) => {
+    dispatch(setSelectedMinor(minor));
+    dispatch(setMinorQuery(''));
+    dispatch(setFilteredMinors([]));
+    dispatch(setStudentMinors(minor));
+  }
+
+  const handleSelectedMinorClear = (minor) => {
+    dispatch(removeSelectedMinor(minor));
+    dispatch(removeStudentMinor(minor));
+  }
+
 
   return (
-    <div className={styles["majors-wrapper"]}>
-      <label className={styles['select-label']} htmlFor="minor">Minors</label> {/* Changed "Majors" to "Minors" */}
+    <div className={styles["minors-wrapper"]}>
+      <label className={styles['select-label']} htmlFor="minor">Minors</label>
       <input
         type="text"
-        id="minor" // Changed "major" to "minor"
-        name="minor" // Changed "major" to "minor"
+        id="minor"
+        name="minor"
         className={styles['select-input']}
         value={minorQuery}
-        onChange={(e) => setMinorQuery(e.target.value)}
-        placeholder="Search minors" // Changed "majors" to "minors"
+        onChange={handleMinorQueryChange}
+        placeholder="Search minors"
       />
       {minorQuery && (
-        <ul className={styles['dropdown']}>
-          {filteredMinors.map(minor => (
-            <li
-              key={minor.value}
-              onClick={() => {
-                setSelectedMinor(minor); // Changed "selectedMajor" to "selectedMinor"
-                setMinorQuery('');
-              }}
-            >
-              {minor.label}
-            </li>
-          ))}
-        </ul>
+          <ul className={styles['dropdown']}>
+              {filteredMinors.map(minor => (
+                  <li 
+                      key={minor.minorName}
+                      onClick={() => handleMinorSelect(minor)}
+                  >
+                      {minor.minorName}
+                  </li>
+              ))}
+          </ul>
       )}
-      <div className={styles["selected-majors"]}>
-        {selectedMinor && (
-          <div className={styles["selected-major"]}>
-            <p>{selectedMinor.label}</p> {/* Changed "selectedMajor" to "selectedMinor" */}
-            <button
-              className={styles["remove-button"]}
-              onClick={() => setSelectedMinor(null)} // Changed "selectedMajor" to "selectedMinor"
-            >
-              <img src="/assets/remove.svg" alt="Remove" />
-            </button>
-          </div>
-        )}
-      </div>
+      <div className={styles["selected-minors"]}>
+          {selectedMinors.map((minor, index) => (
+              <div className={styles["selected-minor"]} key={index}>
+                  <p>{minor.minorName}</p>
+                  <button
+                      className={styles["remove-button"]}
+                      onClick={() => handleSelectedMinorClear(minor)}
+                  >
+                      <img src="/assets/remove.svg" alt="Remove" />
+                  </button>
+              </div>
+          ))}
+      </div> 
     </div>
   );
 };
