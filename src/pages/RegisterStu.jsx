@@ -14,8 +14,6 @@ export const RegisterStu = () => {
     const navigate = useNavigate(); 
     const dispatch = useDispatch();
 
-    const [selectedYear, setSelectedYear] = useState('');
-
     const handleRegister = (event) => {
         event.preventDefault();  // Prevents the default form submission behavior
         navigate('/home');
@@ -53,7 +51,7 @@ export const RegisterStu = () => {
                     </div>
                     <div className={styles["two-inputs-container"]}>
                       <TextInput placeholder={'GPA'} name={'gpa'} onChange={handleInputChange} />
-                      <YearDropdown selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
+                      <YearDropdown />
                     </div>
                     <TextInput placeholder={'Email'} name={'email'} onChange={handleInputChange} />
                     <div className={styles["two-inputs-container"]}>
