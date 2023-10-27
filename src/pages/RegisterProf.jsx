@@ -13,28 +13,32 @@ import {
     setProfessorAcademicTitle
 } from '../features/userSlice';
 
+// Exporting RegisterProf component
 export const RegisterProf = () => {
-    const navigate = useNavigate();
-    const dispatch = useDispatch();
+    const navigate = useNavigate();  // Get the navigate function for navigation
+    const dispatch = useDispatch();  // Get the dispatch function to dispatch actions to the store
 
+    // Function to handle registration form submission
     const handleRegister = (event) => {
-        event.preventDefault();
-        navigate('/home');
+        event.preventDefault();  // Prevent default form submission behavior
+        navigate('/home');  // Navigate to home page on successful registration
     };
 
+    // Function to handle back button click event
     const handleBack = (event) => {
-        event.preventDefault();
-        navigate('/register-all');
+        event.preventDefault();  // Prevent default click event behavior
+        navigate('/register-all');  // Navigate back to the all-registration page
     };
 
+    // Function to handle input change events
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         if(name === 'academicTitle') {
-            dispatch(setProfessorAcademicTitle(value));
+            dispatch(setProfessorAcademicTitle(value));  // Dispatch action to set academic title
         } else if(name === 'email') {
-            dispatch(setEmail(value));
+            dispatch(setEmail(value));  // Dispatch action to set email
         } else if(name === 'cuid') {
-            dispatch(setCuid(value));
+            dispatch(setCuid(value));  // Dispatch action to set cuid
         }
     };
     
@@ -49,29 +53,37 @@ export const RegisterProf = () => {
                 <form className={styles.form} onSubmit={handleRegister}>
                     <h1>Professor Registration</h1>
                     <DisplayName />
+                    {/* Text input for entering academic title */}
                     <TextInput placeholder={'Academic Title (i.e. Professor, Lecturer, Researcher)'} name={'academicTitle'} onChange={handleInputChange} />
                     <div className={styles["two-inputs-container"]}>
+                        {/* College and Department search components */}
                         <CollegeSearch />
                         <DepartmentSearch />
                     </div>
+                    {/* Text inputs for entering email and cuid */}
                     <TextInput placeholder={'Email'} name={'email'} onChange={handleInputChange} />
                     <TextInput placeholder={'CUID'} name={'cuid'} onChange={handleInputChange} />
                     <div className={styles["register-container"]}>
                       <div className={styles["tos"]}>
+                          {/* Checkbox for agreeing to the Terms of Service */}
                           <input type="checkbox" id="tos" name="tos" required />
                           <label htmlFor="tos">I agree to the Terms of Service</label>
                       </div>
                       <div className={styles["register-buttons"]}>
                       <div className={styles["back-link"]}>
+                          {/* Link to navigate back */}
                           <a onClick={handleBack}>Back</a>
                       </div>
+                      {/* Register button to submit the form */}
                       <button className={styles["register-button"]} type="submit">Register</button>
                       </div>
                     </div>
+                    {/* Indicator for the page count */}
                     <p className={styles['page-count']}>Page 2 of 2</p>
                 </form>
             </div>
             <div className={styles["image"]}>
+                {/* Image of a professor */}
                 <img src="/assets/ProfRegisterPhoto.png" alt="Professor" /> 
             </div>
         </div>
