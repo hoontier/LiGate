@@ -61,6 +61,7 @@ export const RegisterProf = () => {
                         <DepartmentSearch />
                     </div>
                     {/* Text inputs for entering email and cuid */}
+                    {/* TODO: Remove email? */}
                     <TextInput placeholder={'Email'} name={'email'} onChange={handleInputChange} />
                     <TextInput placeholder={'CUID'} name={'cuid'} onChange={handleInputChange} />
                     <div className={styles["register-container"]}>
