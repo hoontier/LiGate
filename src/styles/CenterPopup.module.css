@@ -1,0 +1,19 @@
+/* CenterPopup.module.css */
+
+.center-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--base-white, #FFF);
+    border-radius: 5px;
+    border: 1px solid var(--neutral-40, #E2E8F0);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    padding: 10px 15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 20px;
+    z-index: 1001;
+}
