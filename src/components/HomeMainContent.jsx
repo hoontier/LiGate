@@ -6,10 +6,12 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setProjects } from '../features/projectsSlice';
 import cardData from "../../sampleData.json";  
 import { attachScrollHandler } from '../../scrollHandler';
+import { setIsCenterPopupOpen, setCenterPopupContent } from '../features/operatorSlice';
 
 export const HomeMainContent = () => {
     const dispatch = useDispatch();
     const projects = useSelector((state) => state.projects);
+    const { role } = useSelector((state) => state.user);
     const scrollRef = useRef(null);
 
     useEffect(() => {
@@ -19,13 +21,23 @@ export const HomeMainContent = () => {
         return cleanup;
     }, [dispatch]);  
 
+    // Function to render the center popup component when the create project button is clicked
+    const renderCenterPopup = () => {
+        dispatch(setIsCenterPopupOpen(true));
+        dispatch(setCenterPopupContent('edit-project-info'));
+    };
+
+    
+
     return (
         <div className={styles['main-content-container']}>
             <div className={styles['main-content-header']}>
                 {/* search projects text input */}
                 <input className={styles['search-projects']} type="text" placeholder="Search Projects" />
                 {/* create project button */}
-                <button className={styles['create-project']}>Create Project</button>
+                {role === 'professor' && (
+                    <button className={styles['create-project']} onClick={renderCenterPopup}>Create Project</button>
+                )}
             </div>
             <div className={styles['main-content-body']} ref={scrollRef}>
                 {projects.map((card, index) => (
