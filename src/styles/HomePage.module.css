@@ -42,10 +42,7 @@
 }
 
 .overlay {
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> df1d9a147878a23466fca73442fa6e7c9754512d
     position: fixed;
     top: 0;
     left: 0;
