@@ -4,6 +4,7 @@ import styles from "../styles/CenterPopup.module.css";
 import { EditProfessorProfile } from './EditProfessorProfile';
 import { EditStudentProfile } from './EditStudentProfile';
 import { EditProjectInfo } from './EditProjectInfo';
+import { CreateProjectInfo } from './CreateProjectInfo';
 import { useSelector } from 'react-redux';
 
 
@@ -16,6 +17,8 @@ export const CenterPopup = () => {
                 return <EditProfessorProfile />
             case "edit-student-profile":
                 return <EditStudentProfile />
+            case "create-project-info":
+                return <CreateProjectInfo />
             case "edit-project-info":
                 return <EditProjectInfo />
             default:

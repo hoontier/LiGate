@@ -24,7 +24,7 @@ export const HomeMainContent = () => {
     // Function to render the center popup component when the create project button is clicked
     const renderCenterPopup = () => {
         dispatch(setIsCenterPopupOpen(true));
-        dispatch(setCenterPopupContent('edit-project-info'));
+        dispatch(setCenterPopupContent('create-project-info'));
     };
 
     
