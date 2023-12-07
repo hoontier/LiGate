@@ -1,0 +1,86 @@
+/* EditProjectInfo.module.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    resize: vertical; /* or use "none" to disable resizing completely */
+}
+
+.textareawithremaining {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+    resize: vertical; /* or use "none" to disable resizing completely */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #522D80;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    width: 500px
+    /* display: flex;
+    flex-direction: column;
+    max-width: 500px; /* Optional: Set a maximum width for the form */
+    /*margin: 0 auto;   Optional: Center the form horizontally */
+}
+
+.tagContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: rgba(82, 45, 128, 0.17);
+    color: black;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.tag span {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+/* Additional style to remove unnecessary padding for project title and description */
+.remainingCharacters {
+    margin-bottom: 16px; /* Adjusted spacing */
+}
+
