@@ -5,6 +5,7 @@ import { EditProfessorProfile } from './EditProfessorProfile';
 import { EditStudentProfile } from './EditStudentProfile';
 import { EditProjectInfo } from './EditProjectInfo';
 import { CreateProjectInfo } from './CreateProjectInfo';
+import { ContactProfessor } from './ContactProfessor';
 import { useSelector } from 'react-redux';
 
 
@@ -21,6 +22,8 @@ export const CenterPopup = () => {
                 return <CreateProjectInfo />
             case "edit-project-info":
                 return <EditProjectInfo />
+            case "contact-professor":
+                return <ContactProfessor />
             default:
                 return <p>Error: incorrect centerPopupContent</p>
         }
