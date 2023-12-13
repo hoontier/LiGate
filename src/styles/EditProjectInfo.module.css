@@ -9,17 +9,19 @@ label {
     margin-bottom: 8px;
 }
 
-input,
-select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
+.projectLabel {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 4x; 
 }
+
+input,
+
 
 textarea {
     width: 100%;
     padding: 8px;
+    margin-top: 0.5px;
     margin-bottom: 16px;
     box-sizing: border-box;
     resize: vertical; /* or use "none" to disable resizing completely */
@@ -28,13 +30,14 @@ textarea {
 .textareawithremaining {
     width: 100%;
     padding: 8px;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
     box-sizing: border-box;
     resize: vertical; /* or use "none" to disable resizing completely */
 }
 
 button {
     padding: 10px 20px;
+    /* margin-top: 16px; */
     background-color: #522D80;
     color: white;
     border: none;
@@ -42,8 +45,9 @@ button {
     cursor: pointer;
 }
 
+
 button:hover {
-    background-color: #45a049;
+    background-color: rgba(58, 12, 115, 0.819);
 }
 
 form {
@@ -84,3 +88,23 @@ p {
     margin-bottom: 16px; /* Adjusted spacing */
 }
 
+.gpafield {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.submitbutton {
+    margin-top: 16px;
+    padding: 10px 20px;
+    background-color: #522D80;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.scrollableTextarea {
+    max-height: 120px; /* Set the maximum height for the textarea */
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
+  }

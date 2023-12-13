@@ -1,0 +1,38 @@
+/* ContactProfessor.css */
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.input-text,
+.input-email,
+.input-file,
+.textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-submit {
+    padding: 0.5em 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

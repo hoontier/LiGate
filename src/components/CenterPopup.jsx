@@ -5,10 +5,11 @@ import { EditProfessorProfile } from './EditProfessorProfile';
 import { EditStudentProfile } from './EditStudentProfile';
 import { EditProjectInfo } from './EditProjectInfo';
 import { CreateProjectInfo } from './CreateProjectInfo';
+import { ContactProfessor } from './ContactProfessor';
 import { useSelector } from 'react-redux';
 
 
-export const CenterPopup = () => {
+export const CenterPopup = ({card}) => {
     const { centerPopupContent } = useSelector((state) => state.operator);
 
     const renderPopup = () => {
@@ -21,6 +22,9 @@ export const CenterPopup = () => {
                 return <CreateProjectInfo />
             case "edit-project-info":
                 return <EditProjectInfo />
+            case "contact-professor":
+                // return <ContactProfessor />
+                return <p>ContactProfessor.jsx</p>
             default:
                 return <p>Error: incorrect centerPopupContent</p>
         }
