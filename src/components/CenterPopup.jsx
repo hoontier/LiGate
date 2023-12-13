@@ -9,7 +9,7 @@ import { ContactProfessor } from './ContactProfessor';
 import { useSelector } from 'react-redux';
 
 
-export const CenterPopup = () => {
+export const CenterPopup = ({card}) => {
     const { centerPopupContent } = useSelector((state) => state.operator);
 
     const renderPopup = () => {
@@ -23,7 +23,8 @@ export const CenterPopup = () => {
             case "edit-project-info":
                 return <EditProjectInfo />
             case "contact-professor":
-                return <ContactProfessor />
+                // return <ContactProfessor />
+                return <p>ContactProfessor.jsx</p>
             default:
                 return <p>Error: incorrect centerPopupContent</p>
         }

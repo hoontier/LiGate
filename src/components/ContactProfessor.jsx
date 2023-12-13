@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-//import styles from '../styles/ContactProfessor.module.css';
+import styles from '../styles/ContactProfessor.module.css';
 
 
-const ContactProfessor = () => {
+export const ContactProfessor = ({card}) => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [resume, setResume] = useState(null);
@@ -30,55 +30,25 @@ const ContactProfessor = () => {
     };
 
 
-    // return (
-    //     <div className={styles.container}>
-    //     <h2 className={styles.title}>Contact Professor</h2>
-    //     <form onSubmit={handleSubmit}>
-    //         <div className={styles["form-group"]}>
-    //             <label htmlFor="name" className={styles.label}>Name:</label>
-    //             <input type="text" id="name" value={name} onChange={handleNameChange} className={styles["input-text"]} />
-    //         </div>
-    //         <div className={styles["form-group"]}>
-    //             <label htmlFor="email" className={styles.label}>Email:</label>
-    //             <input type="email" id="email" value={email} onChange={handleEmailChange} className={styles["input-email"]} />
-    //         </div>
-    //         <div className={styles["form-group"]}>
-    //             <label htmlFor="resume" className={styles.label}>Resume:</label>
-    //             <input type="file" id="resume" onChange={handleResumeChange} className={styles["input-file"]} />
-    //         </div>
-    //         <div className={styles["form-group"]}>
-    //             <label htmlFor="reason" className={styles.label}>Reason Interested:</label>
-    //             <textarea id="reason" value={reason} onChange={handleReasonChange} className={styles.textarea} />
-    //         </div>
-    //         <button type="submit" className={styles["button-submit"]}>Submit</button>
-    //     </form>
-    // </div>
-    // );
-
     return (
-        <div>
-            <h2>Contact Professor</h2>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" value={name} onChange={handleNameChange} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" value={email} onChange={handleEmailChange} />
-                </div>
-                <div>
-                    <label htmlFor="resume">Resume:</label>
-                    <input type="file" id="resume" onChange={handleResumeChange} />
-                </div>
-                <div>
-                    <label htmlFor="reason">Reason Interested:</label>
-                    <textarea id="reason" value={reason} onChange={handleReasonChange} />
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    );
-};
+        <div className={styles.container}>
+        {/* Add In contact professor name */}
 
-export default ContactProfessor;
+        {/* Formatting Should be:
+        Conttac Prefix Name for Research Title */}
+        <h2 className={styles.title}>Contact Professor</h2>
+        <form onSubmit={handleSubmit}>
+            <div className={styles["form-group"]}>
+                <label htmlFor="resume" className={styles.label}>Resume:</label>
+                <input type="file" id="resume" onChange={handleResumeChange} className={styles["input-file"]} />
+            </div>
+            <div className={styles["form-group"]}>
+                <label htmlFor="reason" className={styles.label}>Reason Interested:</label>
+                <textarea id="reason" value={reason} onChange={handleReasonChange} className={styles.textarea} />
+            </div>
+            <button type="submit" className={styles["button-submit"]}>Submit</button>
+        </form>
+    </div>
+    );
+
+};
